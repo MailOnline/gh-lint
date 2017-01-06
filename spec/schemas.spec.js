@@ -10,13 +10,15 @@ var ajv = new Ajv({
 
 require('ajv-keywords')(ajv, ['typeof']);
 
+ajv.addSchema(require('../schemas/defs.json'));
 ajv.addSchema(require('../schemas/rule.json'));
+ajv.addSchema(require('../schemas/config.json'));
 
 
 jsonSchemaTest([ajv], {
   description: 'Schema tests',
   suites: {
-    'tests': './schemas/{**/,}*.spec.js'
+    'tests': './schemas/{**/,}*.spec.{js,json}'
   },
   // afterError: after.error,
   // afterEach: after.each,

@@ -1,0 +1,20 @@
+[
+  {
+    "description": "configuration schema",
+    "schema": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/config.json#",
+    "tests": [
+      {
+        "description": "a simple valid configuration",
+        "data": {
+          "org": "MailOnline",
+          "extends": "ghlint:recommended",
+          "rules": {
+            "rule-1": 2,
+            "rule-2": [2, { "option": true }]
+          }
+        },
+        "valid": true
+      }
+    ]
+  }
+]

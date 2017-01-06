@@ -1,7 +1,7 @@
 module.exports = [
   {
     description: 'rule definition schema',
-    schema: 'https://raw.githubusercontent.com/MailOnline/gitlint/master/lib/schemas/rule.json#',
+    schema: 'https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/rule.json#',
     tests: [
       {
         description: 'a minimal valid rule',

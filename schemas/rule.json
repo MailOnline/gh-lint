@@ -1,5 +1,5 @@
 {
-  "id": "https://raw.githubusercontent.com/MailOnline/gitlint/master/lib/schemas/rule.json#",
+  "id": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/rule.json#",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "properties": {
@@ -7,6 +7,10 @@
       "type": "object",
       "required": ["description", "category"],
       "properties": {
+        "name": {
+          "description": "rule name as used in config (should be the same as file name)",
+          "$ref": "defs.json#ruleName"
+        },
         "description": {
           "description": "provides the short description of the rule in the rules index",
           "type": "string"
@@ -16,7 +20,7 @@
           "type": "string"
         },
         "recommended": {
-          "description": "is whether the \"extends\": \"gitlint:recommended\" property in a configuration file enables the rule",
+          "description": "whether the \"extends\": \"ghlint:recommended\" property in a configuration file enables the rule",
           "type": "boolean",
           "default": false
         }
@@ -29,7 +33,7 @@
     },
     "schema": {
       "description": "schema for the rule configuration",
-      "$ref": "#"
+      "$ref": "http://json-schema.org/draft-06/schema#"
     },
     "sources": {
       "description": "source of information the rule operates on",

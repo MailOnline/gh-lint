@@ -1,0 +1,16 @@
+{
+  "id": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/defs.json#",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "definitions": {
+    "ruleName": {
+      "id": "#ruleName",
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9\\-]+[A-Za-z0-9]$"
+    },
+    "stringOrArray": {
+      "id": "#stringOrArray",
+      "type": ["string", "array"],
+      "items": { "type": "string" }      
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/config.json#",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "allOf": [
+    { "$ref": "#scope" },
+    {
+      "propertyNames": { "enum": ["org", "organisations", "teams", "repositories", "extends", "rules"] },
+      "required": ["org"],
+      "properties": {
+        "org": {
+          "description": "GitHub organisation, list (as a string) or array of organisations",
+          "$ref": "defs.json#stringOrArray"
+        },
+        "organisations": {
+          "description": "A map of rules that apply to specific organisations (keys are names of orgs, can be comma-separated lists)",
+          "$ref": "#scopes"
+        },
+        "teams": {
+          "description": "A map of rules that apply to specific teams (keys are names of teams, can be comma-separated lists). Each name can be prefixed with '<org>/'",
+          "$ref": "#scopes"
+        },
+        "repositories": {
+          "description": "A map of rules that apply to specific repositories (keys are names of repositories, can be comma-separated lists). Each name can be prefixed with '<org>/'",
+          "$ref": "#scopes"
+        }
+      }
+    }
+  ],
+
+  "definitions": {
+    "scopes": {
+      "id": "#scopes",
+      "propertyNames": { "$ref": "defs.json#stringOrArray" },
+      "additionalProperties": { "$ref": "#_scope" }
+    },
+    "_scope": {
+      "id": "#_scope",
+      "allOf": [
+        { "$ref": "#_scope" },
+        { "propertyNames": { "enum": ["extends", "rules"] } }
+      ]
+    },
+    "scope": {
+      "id": "#scope",
+      "description": "rules configuration for a single scope (global, organisation, team, repo)",
+      "type": "object",
+      "required": ["rules"],
+      "properties": {
+        "extends": {
+          "description": "a set of rules that the configuration extends (e.g. ghlint:recommended)",
+          "type": "string",
+          "pattern": "^[a-z]+\\:[a-z]+$"
+        },
+        "rules": {
+          "description": "a map of rules enabled for a scope",
+          "type": "object",
+          "propertyNames": { "$ref": "defs.json#ruleName" },
+          "additionalProperties": {
+            "anyOf": [
+              { "$ref": "#level" },
+              {
+                "type": "array",
+                "items": [
+                  { "$ref": "#level" }
+                ],
+                "additionalItems": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "level": {
+      "id": "#level",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 2
+    }    
+  }
+}

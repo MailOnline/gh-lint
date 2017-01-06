@@ -1,0 +1,55 @@
+{
+  "id": "https://raw.githubusercontent.com/MailOnline/gitlint/master/lib/schemas/rule.json#",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["description", "category"],
+      "properties": {
+        "description": {
+          "description": "provides the short description of the rule in the rules index",
+          "type": "string"
+        },
+        "category": {
+          "description": "specifies the heading under which the rule is listed in the rules index",
+          "type": "string"
+        },
+        "recommended": {
+          "description": "is whether the \"extends\": \"gitlint:recommended\" property in a configuration file enables the rule",
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "fixable": {
+      "description": "is either \"api\" or \"pr\" if the --fix option on the command line automatically fixes problems reported by the rule with API call or with PR",
+      "type": "string",
+      "enum": ["api", "pr"]
+    },
+    "schema": {
+      "description": "schema for the rule configuration",
+      "$ref": "#"
+    },
+    "sources": {
+      "description": "source of information the rule operates on",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "meta",
+          "branches",
+          "readme",
+          "code",
+          "commits",
+          "prs"
+        ]
+      }
+    },
+    "create": {
+      "description": "a function that returns an object with methods that GitLint calls as it receives information about the repository, according to sources",
+      "typeof": "function"
+    }
+  },
+  "additionalProperties": false
+}

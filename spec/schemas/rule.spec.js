@@ -11,8 +11,17 @@ module.exports = [
             category: 'Test'
           },
           schema: {},
-          sources: ['meta'],
-          create: function() {}
+          source: 'meta',
+          check: {
+            type: 'object',
+            required: ['description'],
+            properties: {
+              description: {
+                type: 'string',
+                minLength: 15
+              }
+            }
+          }
         },
         valid: true
       }

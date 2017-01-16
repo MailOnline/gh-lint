@@ -33,26 +33,36 @@
     },
     "schema": {
       "description": "schema for the rule configuration",
-      "$ref": "http://json-schema.org/draft-06/schema#"
-    },
-    "sources": {
-      "description": "source of information the rule operates on",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "enum": [
-          "meta",
-          "branches",
-          "readme",
-          "code",
-          "commits",
-          "prs"
-        ]
+      "$ref": "http://json-schema.org/draft-06/schema#",
+      "default": {
+        "type": "object",
+        "additionalProperties": false
       }
     },
-    "create": {
-      "description": "a function that returns an object with methods that GitLint calls as it receives information about the repository, according to sources",
-      "typeof": "function"
+    "source": {
+      "description": "source of information the rule operates on",
+      "type": "string",
+      "enum": [
+        "meta",
+        "branches",
+        "readme",
+        "code",
+        "commits",
+        "prs"
+      ]
+    },
+    "check": {
+      "description": "check that should be performed",
+      "anyOf": [
+        {
+          "description": "check can be a JSON-schema to validate the source data",
+          "$ref": "http://json-schema.org/draft-06/schema#"
+        },
+        {
+          "description": "check can be a function that will be passed the source data",
+          "typeof": "function"
+        }
+      ]
     }
   },
   "additionalProperties": false

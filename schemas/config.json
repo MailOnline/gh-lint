@@ -3,46 +3,47 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "allOf": [
-    { "$ref": "#scope" },
+    {
+      "description": "global rules can be defined with 'rules' and 'extend' properties",
+      "$ref": "#rootScope"
+    },
     {
       "propertyNames": { "enum": ["org", "organisations", "teams", "repositories", "extends", "rules"] },
       "required": ["org"],
       "properties": {
         "org": {
-          "description": "GitHub organisation, list (as a string) or array of organisations",
-          "$ref": "defs.json#stringOrArray"
+          "description": "Default GitHub organisation",
+          "$ref": "defs.json#orgName"
         },
         "organisations": {
-          "description": "A map of rules that apply to specific organisations (keys are names of orgs, can be comma-separated lists)",
-          "$ref": "#scopes"
+          "description": "A map of rules that apply to specific organisation (keys are names of orgs)",
+          "propertyNames": { "$ref": "defs.json#orgName" },
+          "additionalProperties": { "$ref": "#scope" }
         },
         "teams": {
-          "description": "A map of rules that apply to specific teams (keys are names of teams, can be comma-separated lists). Each name can be prefixed with '<org>/'",
-          "$ref": "#scopes"
+          "description": "A map of rules that apply to specific team (keys are names of teams. Each name can be prefixed with '<org>/'",
+          "propertyNames": { "$ref": "defs.json#teamName" },
+          "additionalProperties": { "$ref": "#scope" }
         },
         "repositories": {
-          "description": "A map of rules that apply to specific repositories (keys are names of repositories, can be comma-separated lists). Each name can be prefixed with '<org>/'",
-          "$ref": "#scopes"
+          "description": "A map of rules that apply to specific repositoriy (keys are names of repositories). Each name can be prefixed with '<org>/'",
+          "propertyNames": { "$ref": "defs.json#repoName" },
+          "additionalProperties": { "$ref": "#scope" }
         }
       }
     }
   ],
 
   "definitions": {
-    "scopes": {
-      "id": "#scopes",
-      "propertyNames": { "$ref": "defs.json#stringOrArray" },
-      "additionalProperties": { "$ref": "#_scope" }
-    },
-    "_scope": {
-      "id": "#_scope",
+    "scope": {
+      "id": "#scope",
       "allOf": [
-        { "$ref": "#_scope" },
+        { "$ref": "#rootScope" },
         { "propertyNames": { "enum": ["extends", "rules"] } }
       ]
     },
-    "scope": {
-      "id": "#scope",
+    "rootScope": {
+      "id": "#rootScope",
       "description": "rules configuration for a single scope (global, organisation, team, repo)",
       "type": "object",
       "required": ["rules"],
@@ -58,21 +59,31 @@
           "propertyNames": { "$ref": "defs.json#ruleName" },
           "additionalProperties": {
             "anyOf": [
-              { "$ref": "#level" },
+              { "$ref": "#mode" },
               {
                 "type": "array",
                 "items": [
-                  { "$ref": "#level" }
+                  { "$ref": "#mode" }
                 ],
-                "additionalItems": true
+                "additionalItems": {
+                  "type": ["string", "object"]
+                }
+              },
+              {
+                "type": "object",
+                "required": ["mode"],
+                "properties": {
+                  "mode": { "$ref": "#mode" }
+                },
+                "additionalProperties": true
               }
             ]
           }
         }
       }
     },
-    "level": {
-      "id": "#level",
+    "mode": {
+      "id": "#mode",
       "type": "number",
       "minimum": 0,
       "maximum": 2

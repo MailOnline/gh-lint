@@ -5,12 +5,22 @@
     "ruleName": {
       "id": "#ruleName",
       "type": "string",
-      "pattern": "^[A-Za-z][A-Za-z0-9\\-]+[A-Za-z0-9]$"
+      "pattern": "^[A-Za-z](?:[A-Za-z0-9]+[-]?)+[A-Za-z0-9]$"
     },
-    "stringOrArray": {
-      "id": "#stringOrArray",
-      "type": ["string", "array"],
-      "items": { "type": "string" }      
+    "orgName": {
+      "id": "#orgName",
+      "description": "Username may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen",
+      "type": "string",
+      "pattern": "^(?:[A-Za-z0-9]+[-]?)+[A-Za-z0-9]$"
+    },
+    "teamName": {
+      "id": "#teamName",
+      "type": "string"
+    },
+    "repoName": {
+      "id": "#repoName",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
     }
   }
 }

@@ -27,7 +27,7 @@ describe('checkRules', () => {
       }
     };
 
-    return co(execute.checkRules(config))
+    return execute.checkRules(config)
     .then((results) => {
       assert.deepStrictEqual(results, {
         'milojs/milo': {
@@ -56,7 +56,7 @@ describe('checkRules', () => {
       }
     };
 
-    return co(execute.checkRules(repoSourceRules))
+    return execute.checkRules(repoSourceRules)
     .then((results) => {
       assert.deepStrictEqual(results, {
         'MailOnline/videojs-vast-vpaid': {

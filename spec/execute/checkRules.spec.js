@@ -5,7 +5,7 @@ var execute = require('../../lib/execute');
 var assert = require('assert');
 var nock = require('nock');
 
-describe('checkPreparedRules', () => {
+describe('checkRules', () => {
   afterEach(() => {
     nock.cleanAll();
   });
@@ -15,16 +15,19 @@ describe('checkPreparedRules', () => {
     .get('/repos/milojs/milo')
     .reply(200, require('../fixtures/milo-repo-meta'))
 
-    var repoSourceRules = {
-      'milojs/milo': {
-        meta: {
-          'repo-description': [{ mode: 2, minLength: 16 }],
-          'repo-homepage': [{ mode: 1 }]
+    var config = {
+      org: 'MailOnline',
+      repositories: {
+        'milojs/milo': {
+          rules: {
+            'repo-description': 2,
+            'repo-homepage': 1
+          }
         }
       }
     };
 
-    return co(execute.checkPreparedRules(repoSourceRules))
+    return co(execute.checkRules(config))
     .then((results) => {
       assert.deepStrictEqual(results, {
         'milojs/milo': {
@@ -42,15 +45,18 @@ describe('checkPreparedRules', () => {
     .reply(200, require('../fixtures/videojs-vast-vpaid-repo-meta'))
 
     var repoSourceRules = {
-      'MailOnline/videojs-vast-vpaid': {
-        meta: {
-          'repo-description': [{ mode: 2, minLength: 16 }],
-          'repo-homepage': [{ mode: 1 }]
+      org: 'MailOnline',
+      repositories: {
+        'videojs-vast-vpaid': {
+          rules: {
+            'repo-description': 2,
+            'repo-homepage': 1
+          }
         }
       }
     };
 
-    return co(execute.checkPreparedRules(repoSourceRules))
+    return co(execute.checkRules(repoSourceRules))
     .then((results) => {
       assert.deepStrictEqual(results, {
         'MailOnline/videojs-vast-vpaid': {

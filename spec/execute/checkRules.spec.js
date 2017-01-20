@@ -42,11 +42,21 @@ describe('checkRules', () => {
   it('should execute rules (some fail)', () => {
     nock('https://api.github.com')
     .get('/repos/MailOnline/videojs-vast-vpaid')
-    .reply(200, require('../fixtures/videojs-vast-vpaid-repo-meta'))
+    .reply(200, require('../fixtures/videojs-vast-vpaid-repo-meta'));
+
+    nock('https://api.github.com')
+    .get('/repos/milojs/milo')
+    .reply(200, require('../fixtures/milo-repo-meta'));
 
     var repoSourceRules = {
       org: 'MailOnline',
       repositories: {
+        'milojs/milo': {
+          rules: {
+            'repo-description': 2,
+            'repo-homepage': 1
+          }
+        },
         'videojs-vast-vpaid': {
           rules: {
             'repo-description': 2,
@@ -59,6 +69,10 @@ describe('checkRules', () => {
     return execute.checkRules(repoSourceRules)
     .then((results) => {
       assert.deepStrictEqual(results, {
+        'milojs/milo': {
+          'repo-description': [], // no errors
+          'repo-homepage': []     // no errors
+        },
         'MailOnline/videojs-vast-vpaid': {
           'repo-description': [], // no errors
           'repo-homepage': [

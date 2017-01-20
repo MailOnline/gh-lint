@@ -1,6 +1,5 @@
 'use strict';
 
-const co = require('co');
 const execute = require('../../lib/execute');
 const assert = require('assert');
 

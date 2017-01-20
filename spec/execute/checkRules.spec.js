@@ -1,6 +1,5 @@
 'use strict';
 
-const co = require('co');
 const execute = require('../../lib/execute');
 const assert = require('assert');
 const nock = require('nock');
@@ -13,7 +12,7 @@ describe('checkRules', () => {
   it('should execute rules (all pass)', () => {
     nock('https://api.github.com')
     .get('/repos/milojs/milo')
-    .reply(200, require('../fixtures/milo-repo-meta'))
+    .reply(200, require('../fixtures/milo-repo-meta'));
 
     const config = {
       org: 'MailOnline',

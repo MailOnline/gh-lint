@@ -1,9 +1,9 @@
 'use strict';
 
-var co = require('co');
-var execute = require('../../lib/execute');
-var assert = require('assert');
-var nock = require('nock');
+const co = require('co');
+const execute = require('../../lib/execute');
+const assert = require('assert');
+const nock = require('nock');
 
 describe('checkPreparedRules', () => {
   afterEach(() => {
@@ -15,7 +15,7 @@ describe('checkPreparedRules', () => {
     .get('/repos/milojs/milo')
     .reply(200, require('../fixtures/milo-repo-meta'))
 
-    var repoSourceRules = {
+    const repoSourceRules = {
       'milojs/milo': {
         meta: {
           'repo-description': [{ mode: 2, minLength: 16 }],
@@ -41,7 +41,7 @@ describe('checkPreparedRules', () => {
     .get('/repos/MailOnline/videojs-vast-vpaid')
     .reply(200, require('../fixtures/videojs-vast-vpaid-repo-meta'))
 
-    var repoSourceRules = {
+    const repoSourceRules = {
       'MailOnline/videojs-vast-vpaid': {
         meta: {
           'repo-description': [{ mode: 2, minLength: 16 }],

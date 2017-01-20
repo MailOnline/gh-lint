@@ -1,8 +1,8 @@
 'use strict';
 
-var co = require('co');
-var execute = require('../../lib/execute');
-var assert = require('assert');
+const co = require('co');
+const execute = require('../../lib/execute');
+const assert = require('assert');
 
 describe('normaliseRuleOptions', () => {
   it('should convert number to object', () => {

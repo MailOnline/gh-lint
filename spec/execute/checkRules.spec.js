@@ -1,9 +1,9 @@
 'use strict';
 
-var co = require('co');
-var execute = require('../../lib/execute');
-var assert = require('assert');
-var nock = require('nock');
+const co = require('co');
+const execute = require('../../lib/execute');
+const assert = require('assert');
+const nock = require('nock');
 
 describe('checkRules', () => {
   afterEach(() => {
@@ -15,7 +15,7 @@ describe('checkRules', () => {
     .get('/repos/milojs/milo')
     .reply(200, require('../fixtures/milo-repo-meta'))
 
-    var config = {
+    const config = {
       org: 'MailOnline',
       repositories: {
         'milojs/milo': {
@@ -48,7 +48,7 @@ describe('checkRules', () => {
     .get('/repos/milojs/milo')
     .reply(200, require('../fixtures/milo-repo-meta'));
 
-    var repoSourceRules = {
+    const repoSourceRules = {
       org: 'MailOnline',
       repositories: {
         'milojs/milo': {

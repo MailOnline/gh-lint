@@ -1,14 +1,14 @@
 'use strict';
 
-var co = require('co');
-var execute = require('../../lib/execute');
-// var util = require('util');
-var assert = require('assert');
+const co = require('co');
+const execute = require('../../lib/execute');
+// const util = require('util');
+const assert = require('assert');
 
 describe('prepareRepoRules', () => {
   describe('repositories scope', () => {
     it('should collect sources and rules for all repositories', () => {
-      var config = {
+      const config = {
         org: 'MailOnline',
         repositories: {
           'mol-fe': {

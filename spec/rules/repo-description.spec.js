@@ -1,6 +1,6 @@
 'use strict';
 
-var config = {
+const config = {
   org: 'MailOnline',
   repositories: {
     'test-repo-1': {

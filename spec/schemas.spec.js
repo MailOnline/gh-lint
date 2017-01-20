@@ -1,9 +1,9 @@
 'use strict';
 
-var Ajv = require('ajv');
-var jsonSchemaTest = require('json-schema-test');
+const Ajv = require('ajv');
+const jsonSchemaTest = require('json-schema-test');
 
-var ajv = new Ajv({
+const ajv = new Ajv({
   allErrors: true,
   verbose: true
 });

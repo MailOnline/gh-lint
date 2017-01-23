@@ -6,6 +6,8 @@ env:
   node: true
 globals:
   Promise: false
+plugins:
+  - promise
 rules:
   block-scoped-var: 2
   callback-return: 2
@@ -29,3 +31,13 @@ rules:
   semi: [2, always]
   strict: [2, global]
   valid-jsdoc: [2, requireReturn: false]
+
+  promise/always-return: 2
+  promise/no-return-wrap: 2
+  promise/param-names: 2
+  promise/catch-or-return: [2, allowThen: true]
+  promise/no-native: 0
+  promise/no-nesting: 1
+  promise/no-promise-in-callback: 1
+  promise/no-callback-in-promise: 1
+  promise/avoid-new: 1

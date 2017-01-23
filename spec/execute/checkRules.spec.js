@@ -77,7 +77,7 @@ describe('checkRules', () => {
           'repo-homepage': [
             {
               errors: 'data.homepage should be string',
-              message: 'repo-homepage is not satisfied',
+              message: 'not satisfied',
               mode: 1,
               valid: false
             }

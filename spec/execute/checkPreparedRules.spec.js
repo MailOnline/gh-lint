@@ -32,6 +32,7 @@ describe('checkPreparedRules', () => {
           'repo-homepage': []     // no errors
         }
       });
+      assert(nock.isDone());
     });
   });
 
@@ -65,6 +66,7 @@ describe('checkPreparedRules', () => {
           ]
         }
       });
+      assert(nock.isDone());
     });
   });
 });

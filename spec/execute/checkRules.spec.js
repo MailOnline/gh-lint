@@ -34,6 +34,7 @@ describe('checkRules', () => {
           'repo-homepage': []     // no errors
         }
       });
+      assert(nock.isDone());
     });
   });
 
@@ -41,9 +42,7 @@ describe('checkRules', () => {
   it('should execute rules (some fail)', () => {
     nock('https://api.github.com')
     .get('/repos/MailOnline/videojs-vast-vpaid')
-    .reply(200, require('../fixtures/videojs-vast-vpaid-repo-meta'));
-
-    nock('https://api.github.com')
+    .reply(200, require('../fixtures/videojs-vast-vpaid-repo-meta'))
     .get('/repos/milojs/milo')
     .reply(200, require('../fixtures/milo-repo-meta'));
 
@@ -84,6 +83,7 @@ describe('checkRules', () => {
           ]
         }
       });
+      assert(nock.isDone());
     });
   });
 });

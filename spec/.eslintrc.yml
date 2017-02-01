@@ -6,3 +6,4 @@ globals:
 rules:
   no-console: 0
   promise/always-return: 0
+  no-invalid-this: 0

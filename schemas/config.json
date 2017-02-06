@@ -8,15 +8,16 @@
       "$ref": "#rootScope"
     },
     {
-      "propertyNames": { "enum": ["org", "organisations", "teams", "repositories", "extends", "rules"] },
       "required": ["org"],
+      "patternRequired": ["^rules$|^organizations$|^teams$|^repositories$"],
+      "propertyNames": { "enum": ["org", "organizations", "teams", "repositories", "extends", "rules"] },
       "properties": {
         "org": {
-          "description": "Default GitHub organisation",
+          "description": "Default GitHub organization",
           "$ref": "defs.json#orgName"
         },
-        "organisations": {
-          "description": "A map of rules that apply to specific organisation (keys are names of orgs)",
+        "organizations": {
+          "description": "A map of rules that apply to specific organization (keys are names of orgs)",
           "propertyNames": { "$ref": "defs.json#orgName" },
           "additionalProperties": { "$ref": "#scope" }
         },
@@ -44,7 +45,7 @@
     },
     "rootScope": {
       "id": "#rootScope",
-      "description": "rules configuration for a single scope (global, organisation, team, repo)",
+      "description": "rules configuration for a single scope (global, organization, team, repo)",
       "type": "object",
       "required": ["rules"],
       "properties": {

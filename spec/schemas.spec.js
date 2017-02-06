@@ -8,7 +8,7 @@ const ajv = new Ajv({
   verbose: true
 });
 
-require('ajv-keywords')(ajv, ['typeof']);
+require('ajv-keywords')(ajv, ['typeof', 'patternRequired']);
 
 ajv.addSchema(require('../schemas/defs.json'));
 ajv.addSchema(require('../schemas/rule.json'));

@@ -34,7 +34,7 @@ describe('github', function() {
 
   describe('.getRepos', () => {
     describe('.organization', () => {
-      it('should load organisation repos', () => {
+      it('should load organization repos', () => {
         nock('https://api.github.com')
         .get('/orgs/MailOnline/repos?type=sources&per_page=30&page=1')
         .reply(200, require('../fixtures/mailonline_repos_page1.json'))
@@ -58,7 +58,7 @@ describe('github', function() {
 
 
     describe('.team', () => {
-      it('should load organisation repos', () => {
+      it('should load organization repos', () => {
         mockTeams();
 
         nock('https://api.github.com')

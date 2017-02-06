@@ -1,0 +1,15 @@
+{
+  "org": "MailOnline",
+  "organizations": {
+    "milojs": {
+      "rules": {
+        "repo-description": 2,
+        "repo-homepage": 1
+      }
+    }
+  },
+  "rules": {
+    "repo-description": 2,
+    "repo-homepage": 1    
+  }
+}

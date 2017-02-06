@@ -14,6 +14,13 @@
           }
         },
         "valid": true
+      },
+      {
+        "description": "invalid configuration (no scope of rules specified)",
+        "data": {
+          "org": "MailOnline"
+        },
+        "valid": false
       }
     ]
   }

@@ -4,6 +4,8 @@ const co = require('co');
 const execute = require('../../lib/execute');
 const assert = require('assert');
 const nock = require('nock');
+const githubMock = require('./github_mock');
+
 
 describe('checkPreparedRules', () => {
   afterEach(() => {
@@ -11,9 +13,7 @@ describe('checkPreparedRules', () => {
   });
 
   it('should execute rules (all pass)', () => {
-    nock('https://api.github.com')
-    .get('/repos/milojs/milo')
-    .reply(200, require('../fixtures/milo-repo-meta'));
+    githubMock.mock('/repos/milojs/milo', '../fixtures/milo-repo-meta');
 
     const repoSourceRules = {
       'milojs/milo': {
@@ -38,9 +38,7 @@ describe('checkPreparedRules', () => {
 
 
   it('should execute rules (some fail)', () => {
-    nock('https://api.github.com')
-    .get('/repos/MailOnline/videojs-vast-vpaid')
-    .reply(200, require('../fixtures/videojs-vast-vpaid-repo-meta'));
+    githubMock.mock('/repos/MailOnline/videojs-vast-vpaid', '../fixtures/videojs-vast-vpaid-repo-meta');
 
     const repoSourceRules = {
       'MailOnline/videojs-vast-vpaid': {

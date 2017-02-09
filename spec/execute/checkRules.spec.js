@@ -3,18 +3,18 @@
 const execute = require('../../lib/execute');
 const assert = require('assert');
 const nock = require('nock');
-const glob = require('glob');
-const path = require('path');
+const githubMock = require('./github_mock');
+const github = require('../../lib/execute/github');
+
 
 describe('checkRules', () => {
   afterEach(() => {
     nock.cleanAll();
+    github.clearTeams();
   });
 
   it('should execute rules (all pass)', () => {
-    nock('https://api.github.com')
-    .get('/repos/milojs/milo')
-    .reply(200, require('../fixtures/milo-repo-meta'));
+    githubMock.mock('/repos/milojs/milo', '../fixtures/milo-repo-meta');
 
     const config = {
       org: 'MailOnline',
@@ -42,11 +42,8 @@ describe('checkRules', () => {
 
 
   it('should execute rules (some fail)', () => {
-    nock('https://api.github.com')
-    .get('/repos/MailOnline/videojs-vast-vpaid')
-    .reply(200, require('../fixtures/videojs-vast-vpaid-repo-meta'))
-    .get('/repos/milojs/milo')
-    .reply(200, require('../fixtures/milo-repo-meta'));
+    githubMock.mock('/repos/MailOnline/videojs-vast-vpaid', '../fixtures/videojs-vast-vpaid-repo-meta');
+    githubMock.mock('/repos/milojs/milo', '../fixtures/milo-repo-meta');
 
     const config = require('../fixtures/config-repos.json');
 
@@ -75,19 +72,11 @@ describe('checkRules', () => {
 
 
   it('should execute rules for all repos in two orgs', () => {
-    nock('https://api.github.com')
-    .get('/orgs/MailOnline/repos?type=sources&per_page=30&page=1')
-    .reply(200, require('../fixtures/mailonline_repos_page1.json'))
-    .get('/orgs/MailOnline/repos?type=sources&per_page=30&page=2')
-    .reply(200, require('../fixtures/mailonline_repos_page2.json'))
-    .get('/orgs/milojs/repos?type=sources&per_page=30&page=1')
-    .reply(200, require('../fixtures/milojs_repos.json'));
+    githubMock.repos.organization.MailOnline.list();
+    githubMock.repos.organization.MailOnline.meta();
 
-    glob.sync('../fixtures/mailonline_repos/*.json', { cwd: __dirname })
-    .forEach(addRepoMock('MailOnline'));
-
-    glob.sync('../fixtures/milojs_repos/*.json', { cwd: __dirname })
-    .forEach(addRepoMock('milojs'));
+    githubMock.repos.organization.milojs.list();
+    githubMock.repos.organization.milojs.meta();
 
     const config = require('../fixtures/config-orgs.json');
 
@@ -96,14 +85,20 @@ describe('checkRules', () => {
       assert.deepStrictEqual(results, require('../fixtures/config-orgs_expected_results.json'));
       assert(nock.isDone());
     });
+  });
 
-    function addRepoMock(org) {
-      return function (file) {
-        const repoName = path.basename(file, '.json');
-        nock('https://api.github.com')
-        .get(`/repos/${org}/${repoName}`)
-        .reply(200, require(file));
-      };
-    }
+
+  it('should execute rules for all repos of a team', () => {
+    githubMock.teams();
+    githubMock.repos.team.mol_fe.list();
+    githubMock.repos.team.mol_fe.meta();
+
+    const config = require('../fixtures/config-teams.json');
+
+    return execute.checkRules(config)
+    .then((results) => {
+      assert.deepStrictEqual(results, require('../fixtures/config-teams_expected_results.json'));
+      assert(nock.isDone());
+    });
   });
 });

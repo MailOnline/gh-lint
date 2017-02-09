@@ -3,6 +3,7 @@
 const github = require('../../lib/execute/github');
 const assert = require('assert');
 const nock = require('nock');
+const githubMock = require('./github_mock');
 
 
 describe('github', function() {
@@ -15,7 +16,7 @@ describe('github', function() {
 
   describe('.getTeams', () => {
     it('should return cached list of org teams', () => {
-      mockTeams();
+      githubMock.teams();
       const teamsPage1 = require('../fixtures/mailonline_teams_page1.json');
       const teamsPage2 = require('../fixtures/mailonline_teams_page2.json');
 
@@ -35,11 +36,7 @@ describe('github', function() {
   describe('.getRepos', () => {
     describe('.organization', () => {
       it('should load organization repos', () => {
-        nock('https://api.github.com')
-        .get('/orgs/MailOnline/repos?type=sources&per_page=30&page=1')
-        .reply(200, require('../fixtures/mailonline_repos_page1.json'))
-        .get('/orgs/MailOnline/repos?type=sources&per_page=30&page=2')
-        .reply(200, require('../fixtures/mailonline_repos_page2.json'));
+        githubMock.repos.organization.MailOnline.list();
 
         return github.getRepos.organization('MailOnline')
         .then(result => {
@@ -59,11 +56,8 @@ describe('github', function() {
 
     describe('.team', () => {
       it('should load organization repos', () => {
-        mockTeams();
-
-        nock('https://api.github.com')
-        .get('/teams/25/repos?per_page=30&page=1')
-        .reply(200, require('../fixtures/molfe_repos.json'));
+        githubMock.teams();
+        githubMock.repos.team.mol_fe.list();
 
         return github.getRepos.team('MailOnline', '#mol-fe')
         .then(result => {
@@ -73,13 +67,4 @@ describe('github', function() {
       });
     });
   });
-
-
-  function mockTeams() {
-    nock('https://api.github.com')
-    .get('/orgs/MailOnline/teams?per_page=30&page=1')
-    .reply(200, require('../fixtures/mailonline_teams_page1.json'))
-    .get('/orgs/MailOnline/teams?per_page=30&page=2')
-    .reply(200, require('../fixtures/mailonline_teams_page2.json'));
-  }
 });

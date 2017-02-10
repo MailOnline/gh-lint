@@ -224,14 +224,7 @@
     ]
   },
   "MailOnline/VPAIDHTML5Client": {
-    "repo-description": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.description should NOT be shorter than 15 characters",
-        "mode": 2
-      }
-    ],
+    "repo-description": [],
     "repo-homepage": [
       {
         "valid": false,

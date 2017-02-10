@@ -3,6 +3,7 @@ globals:
   describe: false
   it: false
   afterEach: false
+  beforeEach: false
 rules:
   no-console: 0
   promise/always-return: 0

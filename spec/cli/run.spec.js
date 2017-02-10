@@ -41,7 +41,7 @@ describe('cli', () => {
       githubMock.repos.organization.milojs.list();
       githubMock.repos.organization.milojs.meta();
 
-      return fail(run(['-c', './spec/fixtures/config-orgs.json'], false))
+      return fail(run(['--config', './spec/fixtures/config-orgs.json'], false))
       .then(() => {
         const expectedOutput = fs.readFileSync(path.join(__dirname, '../fixtures/config-orgs_expected_cli_output.txt'), 'utf8');
         assert.equal(log, expectedOutput);

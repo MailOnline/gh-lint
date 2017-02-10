@@ -21,7 +21,7 @@ ghlint -c config.json -u $GITHUB_USERNAME -p $GITHUB_TOKEN
 
 where config.json is a configuration file described by [this schema](https://github.com/MailOnline/gh-lint/blob/master/schemas/config.json).
 
-At the moment only rules for specific repositories are supported.
+You can define rules for organisations, teams and specific repos.
 
 
 ## License

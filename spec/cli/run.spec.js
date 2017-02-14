@@ -34,7 +34,7 @@ describe('cli', () => {
       });
     });
 
-    it('should check repos in team', () => {
+    it('should check repos in orgs', () => {
       githubMock.repos.organization.MailOnline.list();
       githubMock.repos.organization.MailOnline.meta();
 
@@ -45,6 +45,23 @@ describe('cli', () => {
       .then(() => {
         const expectedOutput = fs.readFileSync(path.join(__dirname, '../fixtures/config-orgs_expected_cli_output.txt'), 'utf8');
         assert.equal(log, expectedOutput);
+        assert(nock.isDone());
+      });
+    });
+
+    it('should check repos in orgs within date range', () => {
+      githubMock.repos.organization.MailOnline.list();
+      githubMock.repos.organization.milojs.list();
+      githubMock.mock('/repos/MailOnline/json-schema-test', '../fixtures/mailonline_repos/json-schema-test');
+      githubMock.mock('/repos/MailOnline/ImageViewer', '../fixtures/mailonline_repos/ImageViewer');
+      githubMock.mock('/repos/milojs/milo', '../fixtures/milojs_repos/milo');
+
+      return ok(run([
+        '--config', './spec/fixtures/config-orgs.json',
+        '--after', '2017-01-20', '--before', '2017-02-01'
+      ], false)).then(() => {
+        assert.equal(log, 'warning MailOnline/json-schema-test: repo-homepage - not satisfied\n' +
+                          'warning MailOnline/ImageViewer: repo-homepage - not satisfied');
         assert(nock.isDone());
       });
     });

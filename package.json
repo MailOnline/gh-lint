@@ -1,10 +1,10 @@
 {
   "name": "gh-lint",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rule-based command-line tool for auditing GitHub repositories",
-  "main": "execute/index.js",
+  "main": "lib/execute/index.js",
   "bin": {
-    "ghlint": "cli/index.js"
+    "ghlint": "lib/cli/index.js"
   },
   "dependencies": {
     "ajv": "^5.0.1-beta.0",

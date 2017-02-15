@@ -1,6 +1,6 @@
 {
   "name": "gh-lint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rule-based command-line tool for auditing GitHub repositories",
   "main": "execute/index.js",
   "bin": {

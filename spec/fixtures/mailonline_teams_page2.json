@@ -1,0 +1,24 @@
+[
+  {
+    "name": "#team31",
+    "id": 31,
+    "slug": "team31",
+    "description": "Team 31",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/31",
+    "members_url": "https://api.github.com/teams/31/members{/member}",
+    "repositories_url": "https://api.github.com/teams/31/repos",
+    "permission": "push"
+  },
+  {
+    "name": "#team32",
+    "id": 32,
+    "slug": "team32",
+    "description": "Team 32",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/32",
+    "members_url": "https://api.github.com/teams/32/members{/member}",
+    "repositories_url": "https://api.github.com/teams/32/repos",
+    "permission": "push"
+  }
+]

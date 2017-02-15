@@ -1,0 +1,11 @@
+{
+  "org": "MailOnline",
+  "teams": {
+    "#mol-fe": {
+      "rules": {
+        "repo-description": 2,
+        "repo-homepage": 1
+      }
+    }
+  }
+}

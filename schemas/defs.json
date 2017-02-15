@@ -1,0 +1,26 @@
+{
+  "id": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/defs.json#",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "definitions": {
+    "ruleName": {
+      "id": "#ruleName",
+      "type": "string",
+      "pattern": "^[A-Za-z](?:[A-Za-z0-9]+[-]?)+[A-Za-z0-9]$"
+    },
+    "orgName": {
+      "id": "#orgName",
+      "description": "Username may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen",
+      "type": "string",
+      "pattern": "^(?:[A-Za-z0-9]+[-]?)+[A-Za-z0-9]$"
+    },
+    "teamName": {
+      "id": "#teamName",
+      "type": "string"
+    },
+    "repoName": {
+      "id": "#repoName",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    }
+  }
+}

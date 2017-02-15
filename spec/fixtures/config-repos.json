@@ -1,0 +1,17 @@
+{
+  "org": "MailOnline",
+  "repositories": {
+    "milojs/milo": {
+      "rules": {
+        "repo-description": 2,
+        "repo-homepage": 1
+      }
+    },
+    "videojs-vast-vpaid": {
+      "rules": {
+        "repo-description": 2,
+        "repo-homepage": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/config.json#",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "allOf": [
+    {
+      "description": "global rules can be defined with 'rules' and 'extend' properties",
+      "$ref": "#rootScope"
+    },
+    {
+      "required": ["org"],
+      "patternRequired": ["^rules$|^organizations$|^teams$|^repositories$"],
+      "propertyNames": { "enum": ["org", "organizations", "teams", "repositories", "extends", "rules"] },
+      "properties": {
+        "org": {
+          "description": "Default GitHub organization",
+          "$ref": "defs.json#orgName"
+        },
+        "organizations": {
+          "description": "A map of rules that apply to specific organization (keys are names of orgs)",
+          "propertyNames": { "$ref": "defs.json#orgName" },
+          "additionalProperties": { "$ref": "#scope" }
+        },
+        "teams": {
+          "description": "A map of rules that apply to specific team (keys are names of teams. Each name can be prefixed with '<org>/'",
+          "propertyNames": { "$ref": "defs.json#teamName" },
+          "additionalProperties": { "$ref": "#scope" }
+        },
+        "repositories": {
+          "description": "A map of rules that apply to specific repositoriy (keys are names of repositories). Each name can be prefixed with '<org>/'",
+          "propertyNames": { "$ref": "defs.json#repoName" },
+          "additionalProperties": { "$ref": "#scope" }
+        }
+      }
+    }
+  ],
+
+  "definitions": {
+    "scope": {
+      "id": "#scope",
+      "allOf": [
+        { "$ref": "#rootScope" },
+        { "propertyNames": { "enum": ["extends", "rules"] } }
+      ]
+    },
+    "rootScope": {
+      "id": "#rootScope",
+      "description": "rules configuration for a single scope (global, organization, team, repo)",
+      "type": "object",
+      "required": ["rules"],
+      "properties": {
+        "extends": {
+          "description": "a set of rules that the configuration extends (e.g. ghlint:recommended)",
+          "type": "string",
+          "pattern": "^[a-z]+\\:[a-z]+$"
+        },
+        "rules": {
+          "description": "a map of rules enabled for a scope",
+          "type": "object",
+          "propertyNames": { "$ref": "defs.json#ruleName" },
+          "additionalProperties": {
+            "anyOf": [
+              { "$ref": "#mode" },
+              {
+                "type": "array",
+                "items": [
+                  { "$ref": "#mode" }
+                ],
+                "additionalItems": {
+                  "type": ["string", "object"]
+                }
+              },
+              {
+                "type": "object",
+                "required": ["mode"],
+                "properties": {
+                  "mode": { "$ref": "#mode" }
+                },
+                "additionalProperties": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mode": {
+      "id": "#mode",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 2
+    }    
+  }
+}

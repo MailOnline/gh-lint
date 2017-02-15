@@ -1,0 +1,69 @@
+{
+  "id": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/rule.json#",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["description", "category"],
+      "properties": {
+        "name": {
+          "description": "rule name as used in config (should be the same as file name)",
+          "$ref": "defs.json#ruleName"
+        },
+        "description": {
+          "description": "provides the short description of the rule in the rules index",
+          "type": "string"
+        },
+        "category": {
+          "description": "specifies the heading under which the rule is listed in the rules index",
+          "type": "string"
+        },
+        "recommended": {
+          "description": "whether the \"extends\": \"ghlint:recommended\" property in a configuration file enables the rule",
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "fixable": {
+      "description": "is either \"api\" or \"pr\" if the --fix option on the command line automatically fixes problems reported by the rule with API call or with PR",
+      "type": "string",
+      "enum": ["api", "pr"]
+    },
+    "schema": {
+      "description": "schema for the rule configuration",
+      "$ref": "http://json-schema.org/draft-06/schema#",
+      "default": {
+        "type": "object",
+        "additionalProperties": false
+      }
+    },
+    "source": {
+      "description": "source of information the rule operates on",
+      "type": "string",
+      "enum": [
+        "meta",
+        "branches",
+        "readme",
+        "code",
+        "commits",
+        "prs"
+      ]
+    },
+    "check": {
+      "description": "check that should be performed",
+      "anyOf": [
+        {
+          "description": "check can be a JSON-schema to validate the source data",
+          "$ref": "http://json-schema.org/draft-06/schema#"
+        },
+        {
+          "description": "check can be a function that will be passed the source data",
+          "typeof": "function"
+        }
+      ]
+    }
+  },
+  "additionalProperties": false
+}

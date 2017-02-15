@@ -1,0 +1,59 @@
+{
+  "name": "gh-lint",
+  "version": "0.0.1",
+  "description": "Rule-based command-line tool for auditing GitHub repositories",
+  "main": "execute/index.js",
+  "bin": {
+    "ghlint": "cli/index.js"
+  },
+  "dependencies": {
+    "ajv": "^5.0.1-beta.0",
+    "ajv-keywords": "^2.0.0-beta.0",
+    "co": "^4.6.0",
+    "minimist": "^1.2.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "eslint": "^3.13.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "glob": "^7.1.1",
+    "json-schema-test": "^1.3.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2",
+    "nyc": "^10.0.0",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "eslint": "eslint lib && eslint spec",
+    "test-spec": "mocha 'spec/{**/,}*.spec.js' -R spec",
+    "test": "npm run eslint && nyc npm run test-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MailOnline/gh-lint.git"
+  },
+  "keywords": [
+    "GitHub",
+    "lint",
+    "audit",
+    "repositories",
+    "rules"
+  ],
+  "author": "MailOnline",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MailOnline/gh-lint/issues"
+  },
+  "homepage": "https://github.com/MailOnline/gh-lint",
+  "nyc": {
+    "exclude": [
+      "spec"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  }
+}

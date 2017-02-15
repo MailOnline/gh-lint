@@ -1,0 +1,68 @@
+{
+  "MailOnline/eslint-config-mailonline": {
+    "repo-description": [],
+    "repo-homepage": [
+      {
+        "valid": false,
+        "message": "not satisfied",
+        "errors": "data.homepage should NOT be shorter than 10 characters",
+        "mode": 1
+      }
+    ]
+  },
+  "MailOnline/mol-conventional-changelog": {
+    "repo-description": [],
+    "repo-homepage": [
+      {
+        "valid": false,
+        "message": "not satisfied",
+        "errors": "data.homepage should be string",
+        "mode": 1
+      }
+    ]
+  },
+  "MailOnline/stylelint-config-mailonline": {
+    "repo-description": [],
+    "repo-homepage": [
+      {
+        "valid": false,
+        "message": "not satisfied",
+        "errors": "data.homepage should NOT be shorter than 10 characters",
+        "mode": 1
+      }
+    ]
+  },
+  "MailOnline/videojs-vast-vpaid": {
+    "repo-description": [],
+    "repo-homepage": [
+      {
+        "valid": false,
+        "message": "not satisfied",
+        "errors": "data.homepage should be string",
+        "mode": 1
+      }
+    ]
+  },
+  "MailOnline/VPAIDFLASHClient": {
+    "repo-description": [],
+    "repo-homepage": [
+      {
+        "valid": false,
+        "message": "not satisfied",
+        "errors": "data.homepage should be string",
+        "mode": 1
+      }
+    ]
+  },
+  "MailOnline/VPAIDHTML5Client": {
+    "repo-description": [],
+    "repo-homepage": [
+      {
+        "valid": false,
+        "message": "not satisfied",
+        "errors": "data.homepage should NOT be shorter than 10 characters",
+        "mode": 1
+      }
+    ]
+  }
+}

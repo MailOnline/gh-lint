@@ -34,6 +34,17 @@ describe('cli', () => {
       });
     });
 
+    it('should check repos with YAML config', () => {
+      githubMock.mock('/repos/MailOnline/videojs-vast-vpaid', '../fixtures/videojs-vast-vpaid-repo-meta');
+      githubMock.mock('/repos/milojs/milo', '../fixtures/milo-repo-meta');
+
+      return ok(run(['check', '-c', './spec/fixtures/config-repos.yml'], false))
+      .then(() => {
+        assert.equal(log, 'warning MailOnline/videojs-vast-vpaid: repo-homepage - not satisfied');
+        assert(nock.isDone());
+      });
+    });
+
     it('should check repos in orgs', () => {
       githubMock.repos.organization.MailOnline.list();
       githubMock.repos.organization.MailOnline.meta();

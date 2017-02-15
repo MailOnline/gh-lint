@@ -27,6 +27,7 @@ rules:
   no-shadow: 1
   no-trailing-spaces: 2
   no-use-before-define: [2, nofunc]
+  no-var: 2
   quotes: [2, single, avoid-escape]
   semi: [2, always]
   strict: [2, global]

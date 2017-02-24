@@ -76,6 +76,18 @@ describe('cli', () => {
         assert(nock.isDone());
       });
     });
+
+    it('should output results in TAP format', () => {
+      githubMock.mock('/repos/MailOnline/videojs-vast-vpaid', '../fixtures/videojs-vast-vpaid-repo-meta');
+      githubMock.mock('/repos/milojs/milo', '../fixtures/milo-repo-meta');
+
+      return ok(run(['check', '--tap', '-c', './spec/fixtures/config-repos.json'], false))
+      .then(() => {
+        assert.equal(log.match(/not ok/g).length, 2);
+        assert(/not ok \d MailOnline\/videojs-vast-vpaid: repo-homepage/.test(log));
+        assert(nock.isDone());
+      });
+    });
   });
 
 

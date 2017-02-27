@@ -26,11 +26,13 @@
         }
       }
     },
+
     "fixable": {
       "description": "is either \"api\" or \"pr\" if the --fix option on the command line automatically fixes problems reported by the rule with API call or with PR",
       "type": "string",
       "enum": ["api", "pr"]
     },
+
     "schema": {
       "description": "schema for the rule configuration",
       "$ref": "http://json-schema.org/draft-06/schema#",
@@ -39,6 +41,7 @@
         "additionalProperties": false
       }
     },
+
     "source": {
       "description": "source of information the rule operates on",
       "type": "string",
@@ -51,6 +54,7 @@
         "prs"
       ]
     },
+
     "check": {
       "description": "check that should be performed",
       "anyOf": [
@@ -63,6 +67,25 @@
           "typeof": "function"
         }
       ]
+    },
+
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "comments": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": false,
+          "properties": {
+            "create": { "type": "string" },
+            "update": { "type": "string" },
+            "close": { "type": "string" },
+            "reopen": { "type": "string" }
+          }
+        }
+      }
     }
   },
   "additionalProperties": false

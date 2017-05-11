@@ -2,6 +2,7 @@
   "id": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/rule.json#",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
+  "required": ["meta", "source", "check"],
   "properties": {
     "meta": {
       "type": "object",

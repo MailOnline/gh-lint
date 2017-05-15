@@ -24,6 +24,18 @@
           }
         },
         "valid": true
+      },
+      {
+        "description": "invalid rule (check is mising)",
+        "data": {
+          "meta": {
+            "description": "Test rule",
+            "category": "Test"
+          },
+          "schema": {},
+          "source": "meta"
+        },
+        "valid": false
       }
     ]
   }

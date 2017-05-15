@@ -16,9 +16,62 @@
         "valid": true
       },
       {
+        "description": "a valid configuration with team-specific rules",
+        "data": {
+          "org": "MailOnline",
+          "teams": {
+            "#team-1": {
+              "rules": {
+                "rule-1": 2,
+                "rule-2": [2, { "option": true }]
+              }
+            }
+          }
+        },
+        "valid": true
+      },
+      {
+        "description": "a valid configuration with repository-specific rules",
+        "data": {
+          "org": "MailOnline",
+          "repositories": {
+            "milojs/milo": {
+              "rules": {
+                "repo-description": 2,
+                "repo-homepage": 1
+              }
+            }
+          }
+        },
+        "valid": true
+      },
+      {
         "description": "invalid configuration (no scope of rules specified)",
         "data": {
           "org": "MailOnline"
+        },
+        "valid": false
+      },
+      {
+        "description": "invalid configuration (no rules for a team)",
+        "data": {
+          "org": "MailOnline",
+          "teams": {
+            "#team-1": {
+            }
+          }
+        },
+        "valid": false
+      },
+      {
+        "description": "invalid configuration (unknown property)",
+        "data": {
+          "org": "MailOnline",
+          "rules": {
+            "rule-1": 2,
+            "rule-2": [2, { "option": true }]
+          },
+          "unknown": {}
         },
         "valid": false
       }

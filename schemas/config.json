@@ -9,7 +9,12 @@
     },
     {
       "required": ["org"],
-      "patternRequired": ["^rules$|^organizations$|^teams$|^repositories$"],
+      "anyOf": [
+        { "required": ["rules"] },
+        { "required": ["organizations"] },
+        { "required": ["teams"] },
+        { "required": ["repositories"] }
+      ],
       "propertyNames": { "enum": ["org", "organizations", "teams", "repositories", "extends", "rules"] },
       "properties": {
         "org": {
@@ -40,14 +45,16 @@
       "id": "#scope",
       "allOf": [
         { "$ref": "#rootScope" },
-        { "propertyNames": { "enum": ["extends", "rules"] } }
+        {
+          "propertyNames": { "enum": ["extends", "rules"] },
+          "required": ["rules"]
+        }
       ]
     },
     "rootScope": {
       "id": "#rootScope",
       "description": "rules configuration for a single scope (global, organization, team, repo)",
       "type": "object",
-      "required": ["rules"],
       "properties": {
         "extends": {
           "description": "a set of rules that the configuration extends (e.g. ghlint:recommended)",

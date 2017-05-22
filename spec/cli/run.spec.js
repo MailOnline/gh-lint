@@ -77,6 +77,27 @@ describe('cli', () => {
       });
     });
 
+    it('should check repos in orgs changed in the last X days', () => {
+      githubMock.repos.organization.MailOnline.list();
+      githubMock.repos.organization.milojs.list();
+      githubMock.mock('/repos/MailOnline/json-schema-test', '../fixtures/mailonline_repos/json-schema-test');
+      githubMock.mock('/repos/MailOnline/ImageViewer', '../fixtures/mailonline_repos/ImageViewer');
+      githubMock.mock('/repos/milojs/milo', '../fixtures/milojs_repos/milo');
+
+      return ok(run([
+        '--config', './spec/fixtures/config-orgs.json',
+        '--after', getDays('2017-01-20'), '--before', getDays('2017-02-01')
+      ], false)).then(() => {
+        assert.equal(log, 'warning MailOnline/json-schema-test: repo-homepage - not satisfied\n' +
+                          'warning MailOnline/ImageViewer: repo-homepage - not satisfied');
+        assert(nock.isDone());
+      });
+
+      function getDays(dateStr) {
+        return Math.floor((Date.now() - new Date(dateStr).getTime())/86400000) + 1;
+      }
+    });
+
     it('should output results in TAP format', () => {
       githubMock.mock('/repos/MailOnline/videojs-vast-vpaid', '../fixtures/videojs-vast-vpaid-repo-meta');
       githubMock.mock('/repos/milojs/milo', '../fixtures/milo-repo-meta');

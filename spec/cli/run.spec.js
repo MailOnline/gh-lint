@@ -94,7 +94,7 @@ describe('cli', () => {
       });
 
       function getDays(dateStr) {
-        return Math.floor((Date.now() - new Date(dateStr).getTime())/86400000) + 1;
+        return Math.floor((Date.now() - new Date(dateStr).getTime())/86400000);
       }
     });
 

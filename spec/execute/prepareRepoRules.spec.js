@@ -1,9 +1,7 @@
 'use strict';
 
-const co = require('co');
 const execute = require('../../lib/execute');
 const assert = require('assert');
-// const util = require('util');
 const githubMock = require('./github_mock');
 
 
@@ -27,7 +25,7 @@ describe('prepareRepoRules', () => {
         }
       };
 
-      return co(execute.prepareRepoRules(config))
+      return execute.prepareRepoRules(config)
       .then(repoSourceRules => {
         assert.deepStrictEqual(repoSourceRules, {
           'MailOnline/mol-fe': {
@@ -52,10 +50,10 @@ describe('prepareRepoRules', () => {
 
       const config = require('../fixtures/config-orgs.json');
 
-      return co(execute.prepareRepoRules(config, {
+      return execute.prepareRepoRules(config, {
         after: new Date('2017-01-20'),
         before: new Date('2017-02-01')
-      }))
+      })
       .then(repoSourceRules => {
         assert.deepStrictEqual(repoSourceRules, {
           'MailOnline/json-schema-test': {

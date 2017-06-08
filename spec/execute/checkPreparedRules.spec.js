@@ -1,6 +1,5 @@
 'use strict';
 
-const co = require('co');
 const execute = require('../../lib/execute');
 const assert = require('assert');
 const nock = require('nock');
@@ -24,7 +23,7 @@ describe('checkPreparedRules', () => {
       }
     };
 
-    return co(execute.checkPreparedRules(repoSourceRules))
+    return execute.checkPreparedRules(repoSourceRules)
     .then((results) => {
       assert.deepStrictEqual(results, {
         'milojs/milo': {
@@ -49,7 +48,7 @@ describe('checkPreparedRules', () => {
       }
     };
 
-    return co(execute.checkPreparedRules(repoSourceRules))
+    return execute.checkPreparedRules(repoSourceRules)
     .then((results) => {
       assert.deepStrictEqual(results, {
         'MailOnline/videojs-vast-vpaid': {

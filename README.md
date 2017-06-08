@@ -24,6 +24,21 @@ where config.json is a configuration file described by [this schema](https://git
 You can define rules for organisations, teams and specific repos.
 
 
+## Rules
+
+#### Repo rules
+
+- repo-description: check that repo has description specified in GitHub UI
+- repo-homepage: check that repo has homepage specified in GitHub UI
+- repo-team: check that repo is assigned to one of specified teams
+
+
+#### Branch rules
+
+- branch-default: check that default branch is master
+- branch-protection: check that master branch is protected
+
+
 ## Options
 
 - `-c` (or `--config`) - configuration file location

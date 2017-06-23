@@ -1,0 +1,142 @@
+[
+  {
+    "sha": "5febc21ec165bfe77f5c2c873c79b947d812c0fd",
+    "commit": {
+      "author": {
+        "name": "Andrea Giammarchi",
+        "email": "andrea.giammarchi@gmail.com",
+        "date": "2017-05-12T07:35:15Z"
+      },
+      "committer": {
+        "name": "Jason Ian Green",
+        "email": "jasoniangreen@users.noreply.github.com",
+        "date": "2017-05-12T07:35:15Z"
+      },
+      "message": "chore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`.",
+      "tree": {
+        "sha": "dd79dc4191fe2ee13f6d9249a0ec967f970fce3c",
+        "url": "https://api.github.com/repos/milojs/milo/git/trees/dd79dc4191fe2ee13f6d9249a0ec967f970fce3c"
+      },
+      "url": "https://api.github.com/repos/milojs/milo/git/commits/5febc21ec165bfe77f5c2c873c79b947d812c0fd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/milojs/milo/commits/5febc21ec165bfe77f5c2c873c79b947d812c0fd",
+    "html_url": "https://github.com/milojs/milo/commit/5febc21ec165bfe77f5c2c873c79b947d812c0fd",
+    "comments_url": "https://api.github.com/repos/milojs/milo/commits/5febc21ec165bfe77f5c2c873c79b947d812c0fd/comments",
+    "author": {
+      "login": "WebReflection",
+      "id": 85749,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/85749?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WebReflection",
+      "html_url": "https://github.com/WebReflection",
+      "followers_url": "https://api.github.com/users/WebReflection/followers",
+      "following_url": "https://api.github.com/users/WebReflection/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WebReflection/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WebReflection/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WebReflection/subscriptions",
+      "organizations_url": "https://api.github.com/users/WebReflection/orgs",
+      "repos_url": "https://api.github.com/users/WebReflection/repos",
+      "events_url": "https://api.github.com/users/WebReflection/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WebReflection/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jasoniangreen",
+      "id": 3481367,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3481367?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasoniangreen",
+      "html_url": "https://github.com/jasoniangreen",
+      "followers_url": "https://api.github.com/users/jasoniangreen/followers",
+      "following_url": "https://api.github.com/users/jasoniangreen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasoniangreen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasoniangreen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasoniangreen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasoniangreen/orgs",
+      "repos_url": "https://api.github.com/users/jasoniangreen/repos",
+      "events_url": "https://api.github.com/users/jasoniangreen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasoniangreen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3121a99223d547be62134d87728dbc56a7f4f853",
+        "url": "https://api.github.com/repos/milojs/milo/commits/3121a99223d547be62134d87728dbc56a7f4f853",
+        "html_url": "https://github.com/milojs/milo/commit/3121a99223d547be62134d87728dbc56a7f4f853"
+      }
+    ]
+  },
+  {
+    "sha": "3121a99223d547be62134d87728dbc56a7f4f853",
+    "commit": {
+      "author": {
+        "name": "Jason Green",
+        "email": "jasoniangreen@gmail.com",
+        "date": "2017-04-28T15:48:00Z"
+      },
+      "committer": {
+        "name": "Jason Green",
+        "email": "jasoniangreen@gmail.com",
+        "date": "2017-04-28T15:48:00Z"
+      },
+      "message": "chore: remove only from css tests",
+      "tree": {
+        "sha": "64e310fd6843b05177240cc190903ddfaf09b7db",
+        "url": "https://api.github.com/repos/milojs/milo/git/trees/64e310fd6843b05177240cc190903ddfaf09b7db"
+      },
+      "url": "https://api.github.com/repos/milojs/milo/git/commits/3121a99223d547be62134d87728dbc56a7f4f853",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/milojs/milo/commits/3121a99223d547be62134d87728dbc56a7f4f853",
+    "html_url": "https://github.com/milojs/milo/commit/3121a99223d547be62134d87728dbc56a7f4f853",
+    "comments_url": "https://api.github.com/repos/milojs/milo/commits/3121a99223d547be62134d87728dbc56a7f4f853/comments",
+    "author": {
+      "login": "jasoniangreen",
+      "id": 3481367,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3481367?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasoniangreen",
+      "html_url": "https://github.com/jasoniangreen",
+      "followers_url": "https://api.github.com/users/jasoniangreen/followers",
+      "following_url": "https://api.github.com/users/jasoniangreen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasoniangreen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasoniangreen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasoniangreen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasoniangreen/orgs",
+      "repos_url": "https://api.github.com/users/jasoniangreen/repos",
+      "events_url": "https://api.github.com/users/jasoniangreen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasoniangreen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jasoniangreen",
+      "id": 3481367,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3481367?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasoniangreen",
+      "html_url": "https://github.com/jasoniangreen",
+      "followers_url": "https://api.github.com/users/jasoniangreen/followers",
+      "following_url": "https://api.github.com/users/jasoniangreen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasoniangreen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasoniangreen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasoniangreen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasoniangreen/orgs",
+      "repos_url": "https://api.github.com/users/jasoniangreen/repos",
+      "events_url": "https://api.github.com/users/jasoniangreen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasoniangreen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "46dccebdc844a2d495a08d32f0da585bd1cb28fb",
+        "url": "https://api.github.com/repos/milojs/milo/commits/46dccebdc844a2d495a08d32f0da585bd1cb28fb",
+        "html_url": "https://github.com/milojs/milo/commit/46dccebdc844a2d495a08d32f0da585bd1cb28fb"
+      }
+    ]
+  }
+]

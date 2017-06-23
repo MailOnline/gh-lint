@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Employees",
+    "id": 116136,
+    "slug": "employees",
+    "description": null,
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/116136",
+    "members_url": "https://api.github.com/teams/116136/members{/member}",
+    "repositories_url": "https://api.github.com/teams/116136/repos",
+    "permission": "admin"
+  },
+  {
+    "name": "SICP Study Group",
+    "id": 1059720,
+    "slug": "sicp-study-group",
+    "description": "",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/1059720",
+    "members_url": "https://api.github.com/teams/1059720/members{/member}",
+    "repositories_url": "https://api.github.com/teams/1059720/repos",
+    "permission": "push"
+  }
+]

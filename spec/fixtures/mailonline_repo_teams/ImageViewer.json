@@ -1,0 +1,24 @@
+[
+  {
+    "name": "IOS",
+    "id": 278061,
+    "slug": "ios",
+    "description": "",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/278061",
+    "members_url": "https://api.github.com/teams/278061/members{/member}",
+    "repositories_url": "https://api.github.com/teams/278061/repos",
+    "permission": "push"
+  },
+  {
+    "name": "Native-App-Development",
+    "id": 1708359,
+    "slug": "native-app-development",
+    "description": "",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/1708359",
+    "members_url": "https://api.github.com/teams/1708359/members{/member}",
+    "repositories_url": "https://api.github.com/teams/1708359/repos",
+    "permission": "push"
+  }
+]

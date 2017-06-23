@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Employees",
+    "id": 116136,
+    "slug": "employees",
+    "description": null,
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/116136",
+    "members_url": "https://api.github.com/teams/116136/members{/member}",
+    "repositories_url": "https://api.github.com/teams/116136/repos",
+    "permission": "admin"
+  },
+  {
+    "name": "Metro",
+    "id": 813009,
+    "slug": "metro",
+    "description": "Metro development",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/813009",
+    "members_url": "https://api.github.com/teams/813009/members{/member}",
+    "repositories_url": "https://api.github.com/teams/813009/repos",
+    "permission": "admin"
+  },
+  {
+    "name": "Metro-Automattic",
+    "id": 1695443,
+    "slug": "metro-automattic",
+    "description": "",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/1695443",
+    "members_url": "https://api.github.com/teams/1695443/members{/member}",
+    "repositories_url": "https://api.github.com/teams/1695443/repos",
+    "permission": "push"
+  }
+]

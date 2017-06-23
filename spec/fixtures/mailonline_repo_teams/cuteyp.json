@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Employees",
+    "id": 116136,
+    "slug": "employees",
+    "description": null,
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/116136",
+    "members_url": "https://api.github.com/teams/116136/members{/member}",
+    "repositories_url": "https://api.github.com/teams/116136/repos",
+    "permission": "admin"
+  },
+  {
+    "name": "Staff",
+    "id": 117286,
+    "slug": "staff",
+    "description": "",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/117286",
+    "members_url": "https://api.github.com/teams/117286/members{/member}",
+    "repositories_url": "https://api.github.com/teams/117286/repos",
+    "permission": "push"
+  },
+  {
+    "name": "#cc",
+    "id": 2028064,
+    "slug": "cc",
+    "description": "Content Creator and Internal Tools",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/2028064",
+    "members_url": "https://api.github.com/teams/2028064/members{/member}",
+    "repositories_url": "https://api.github.com/teams/2028064/repos",
+    "permission": "push"
+  }
+]

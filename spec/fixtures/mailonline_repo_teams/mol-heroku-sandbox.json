@@ -1,0 +1,13 @@
+[
+  {
+    "name": "#ads",
+    "id": 417514,
+    "slug": "ads",
+    "description": "Advertisement platform apps and services",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/417514",
+    "members_url": "https://api.github.com/teams/417514/members{/member}",
+    "repositories_url": "https://api.github.com/teams/417514/repos",
+    "permission": "admin"
+  }
+]

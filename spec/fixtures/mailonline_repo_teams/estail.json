@@ -1,0 +1,13 @@
+[
+  {
+    "name": "#rta",
+    "id": 2028587,
+    "slug": "rta",
+    "description": "Real time analytics",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/2028587",
+    "members_url": "https://api.github.com/teams/2028587/members{/member}",
+    "repositories_url": "https://api.github.com/teams/2028587/repos",
+    "permission": "admin"
+  }
+]

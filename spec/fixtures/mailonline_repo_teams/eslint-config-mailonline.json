@@ -1,0 +1,13 @@
+[
+  {
+    "name": "#mol-fe",
+    "id": 2016633,
+    "slug": "mol-fe",
+    "description": "MOL FE - website JavaScript, CSS, node.js services",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/2016633",
+    "members_url": "https://api.github.com/teams/2016633/members{/member}",
+    "repositories_url": "https://api.github.com/teams/2016633/repos",
+    "permission": "admin"
+  }
+]

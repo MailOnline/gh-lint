@@ -39,12 +39,20 @@ You can define rules for organisations, teams and specific repos.
 - branch-protection: check that master branch is protected
 
 
+#### Commit rules
+
+By default, these rules analyse the commits for the last 30 days. It can be changed using options `--since` and `--until` (see below).
+
+- commit-name: check that commit names satisfy semantic commit conventions
+
+
 ## Options
 
 - `-c` (or `--config`) - configuration file location
-- `-u` (or `--user`) - GitHub username.
-- `-p` (or `--pass`) - GitHub password.
+- `-u` (or `--user`) - GitHub username
+- `-p` (or `--pass`) - GitHub password
 - `-a` (or `--after`) / `-b` (or `--before`) - only validate repositories in organizations and in teams that were changed **after**/**before** this date (also can be date-time or the integer number of days). These options have no effect on repositories that are explicitely specified.
+- `--since` / `--until` - validate commits **since**/**until** this date (also can be date-time or the integer number of days)
 - `--tap` - output results in TAP format
 
 

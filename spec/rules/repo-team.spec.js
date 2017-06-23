@@ -6,12 +6,12 @@ const nock = require('nock');
 const githubMock = require('../execute/github_mock');
 
 
-describe('rule repo-team', function() {
+describe('rule repo-team', () => {
   afterEach(() => {
     nock.cleanAll();
   });
 
-  it('should check that repo is assigned to one of specified teams', function() {
+  it('should check that repo is assigned to one of specified teams', () => {
     githubMock.repos.organization.MailOnline.list();
     githubMock.repos.organization.MailOnline.teams();
 

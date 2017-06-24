@@ -37,8 +37,8 @@ describe('rule commit-name', () => {
           'commit-name': [
             {
               mode: 2,
-              message: '1 bad commit(s) by @WebReflection and @jasoniangreen',
-              messages: ["Bad commit by @WebReflection and @jasoniangreen:\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`."],
+              message: '1 bad commit name by @WebReflection and @jasoniangreen',
+              messages: ["Bad commit name by @WebReflection and @jasoniangreen:\nhttps://github.com/milojs/milo/commit/5febc21ec165bfe77f5c2c873c79b947d812c0fd\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`."],
               valid: false
             }
           ]
@@ -69,8 +69,8 @@ describe('rule commit-name', () => {
           'commit-name': [
             {
               mode: 2,
-              message: '1 bad commit(s) by @WebReflection and @jasoniangreen',
-              messages: ["Bad commit by @WebReflection and @jasoniangreen:\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`."],
+              message: '1 bad commit name by @WebReflection and @jasoniangreen',
+              messages: ["Bad commit name by @WebReflection and @jasoniangreen:\nhttps://github.com/milojs/milo/commit/5febc21ec165bfe77f5c2c873c79b947d812c0fd\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`."],
               valid: false
             }
           ]

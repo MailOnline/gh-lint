@@ -2,11 +2,18 @@
 
 const execute = require('../../lib/execute');
 const assert = require('assert');
+const nock = require('nock');
 const githubMock = require('./github_mock');
+const github = require('../../lib/execute/github');
 // const util = require('util');
 
 
 describe('prepareRepoRules', () => {
+  afterEach(() => {
+    nock.cleanAll();
+    github.clearTeams();
+  });
+
   describe('repositories scope', () => {
     it('should collect sources and rules for all repositories', () => {
       const config = execute.prepareConfig({
@@ -100,6 +107,94 @@ describe('prepareRepoRules', () => {
             }
           }
         });
+        assert(nock.isDone());
+        // console.log(util.inspect(repoSourceRules, {depth: null}));
+      });
+    });
+  });
+
+
+  describe('teams scope', () => {
+    it('should collect rules for repos for team', () => {
+      githubMock.teams();
+      githubMock.repos.team.mol_fe.list();
+
+      const config = execute.prepareConfig(require('../fixtures/config-teams.json'));
+
+      return execute.prepareRepoRules(config)
+      .then(repoSourceRules => {
+        assert.deepStrictEqual(repoSourceRules, {
+          'MailOnline/eslint-config-mailonline': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
+          'MailOnline/mol-conventional-changelog': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
+          'MailOnline/stylelint-config-mailonline': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
+          'MailOnline/videojs-vast-vpaid': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
+          'MailOnline/VPAIDFLASHClient': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
+          'MailOnline/VPAIDHTML5Client': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          }
+        });
+        assert(nock.isDone());
+        // console.log(util.inspect(repoSourceRules, {depth: null}));
+      });
+    });
+
+    it('should collect rules for repos for team excluding disabled rules', () => {
+      githubMock.teams();
+      githubMock.repos.team.mol_fe.list();
+
+      const config = execute.prepareConfig(require('../fixtures/config-teams-excluding-repos.json'));
+
+      return execute.prepareRepoRules(config)
+      .then(repoSourceRules => {
+        assert.deepStrictEqual(repoSourceRules, {
+          'MailOnline/videojs-vast-vpaid': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
+          'MailOnline/VPAIDFLASHClient': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
+          'MailOnline/VPAIDHTML5Client': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          }
+        });
+        assert(nock.isDone());
         // console.log(util.inspect(repoSourceRules, {depth: null}));
       });
     });

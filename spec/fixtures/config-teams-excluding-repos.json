@@ -1,0 +1,31 @@
+{
+  "org": "MailOnline",
+  "teams": {
+    "#mol-fe": {
+      "rules": {
+        "repo-description": 2,
+        "repo-homepage": 1
+      }
+    }
+  },
+  "repositories": {
+    "eslint-config-mailonline": {
+      "rules": {
+        "repo-description": 0,
+        "repo-homepage": 0
+      }
+    },
+    "mol-conventional-changelog": {
+      "rules": {
+        "repo-description": 0,
+        "repo-homepage": 0
+      }
+    },
+    "stylelint-config-mailonline": {
+      "rules": {
+        "repo-description": 0,
+        "repo-homepage": 0
+      }
+    }
+  }
+}

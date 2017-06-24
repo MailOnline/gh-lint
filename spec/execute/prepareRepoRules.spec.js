@@ -3,6 +3,7 @@
 const execute = require('../../lib/execute');
 const assert = require('assert');
 const githubMock = require('./github_mock');
+// const util = require('util');
 
 
 describe('prepareRepoRules', () => {
@@ -56,6 +57,12 @@ describe('prepareRepoRules', () => {
       })
       .then(repoSourceRules => {
         assert.deepStrictEqual(repoSourceRules, {
+          'MailOnline/cuteyp': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
           'MailOnline/json-schema-test': {
             meta: {
               'repo-description': [ { mode: 2, minLength: 1 } ],
@@ -68,7 +75,25 @@ describe('prepareRepoRules', () => {
               'repo-homepage': [ { mode: 1, minLength: 1 } ]
             }
           },
+          'MailOnline/gh-lint': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
           'milojs/milo': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
+          'milojs/proto': {
+            meta: {
+              'repo-description': [ { mode: 2, minLength: 1 } ],
+              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+            }
+          },
+          'milojs/milo-core': {
             meta: {
               'repo-description': [ { mode: 2, minLength: 1 } ],
               'repo-homepage': [ { mode: 1, minLength: 1 } ]

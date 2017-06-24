@@ -17,9 +17,9 @@ module.exports = {
           mock('/orgs/MailOnline/repos?type=sources&per_page=30&page=1', '../fixtures/mailonline_repos_page1.json');
           mock('/orgs/MailOnline/repos?type=sources&per_page=30&page=2', '../fixtures/mailonline_repos_page2.json');
         },
-        meta() {
+        meta(repos) {
           glob.sync('../fixtures/mailonline_repos/*.json', { cwd: __dirname })
-          .forEach(addRepoMock('MailOnline'));
+          .forEach(addRepoMock('MailOnline', repos));
         },
         teams() {
           glob.sync('../fixtures/mailonline_repo_teams/*.json', { cwd: __dirname })
@@ -30,9 +30,9 @@ module.exports = {
         list() {
           mock('/orgs/milojs/repos?type=sources&per_page=30&page=1', '../fixtures/milojs_repos.json');
         },
-        meta() {
+        meta(repos) {
           glob.sync('../fixtures/milojs_repos/*.json', { cwd: __dirname })
-          .forEach(addRepoMock('milojs'));
+          .forEach(addRepoMock('milojs', repos));
         }
       }
     },
@@ -57,10 +57,11 @@ function mock(apiPath, file) {
 }
 
 
-function addRepoMock(org) {
+function addRepoMock(org, repos) {
   return function (file) {
     const repoName = path.basename(file, '.json');
-    mock(`/repos/${org}/${repoName}`, file);
+    if (!repos || repos.indexOf(repoName) >= 0)
+      mock(`/repos/${org}/${repoName}`, file);
   };
 }
 

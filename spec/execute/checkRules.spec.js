@@ -71,7 +71,7 @@ describe('checkRules', () => {
   });
 
 
-  it('should execute rules for all repos in two orgs', () => {
+  it.skip('should execute rules for all repos in two orgs', () => {
     githubMock.repos.organization.MailOnline.list();
     githubMock.repos.organization.MailOnline.meta();
 

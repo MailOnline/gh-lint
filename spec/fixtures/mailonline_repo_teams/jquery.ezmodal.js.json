@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Employees",
+    "id": 116136,
+    "slug": "employees",
+    "description": null,
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/116136",
+    "members_url": "https://api.github.com/teams/116136/members{/member}",
+    "repositories_url": "https://api.github.com/teams/116136/repos",
+    "permission": "admin"
+  },
+  {
+    "name": "Staff",
+    "id": 117286,
+    "slug": "staff",
+    "description": "",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/117286",
+    "members_url": "https://api.github.com/teams/117286/members{/member}",
+    "repositories_url": "https://api.github.com/teams/117286/repos",
+    "permission": "push"
+  }
+]

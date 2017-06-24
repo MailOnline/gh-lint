@@ -1,0 +1,13 @@
+[
+  {
+    "name": "#archive",
+    "id": 2042557,
+    "slug": "archive",
+    "description": "",
+    "privacy": "closed",
+    "url": "https://api.github.com/teams/2042557",
+    "members_url": "https://api.github.com/teams/2042557/members{/member}",
+    "repositories_url": "https://api.github.com/teams/2042557/repos",
+    "permission": "admin"
+  }
+]

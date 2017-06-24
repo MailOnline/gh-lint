@@ -20,6 +20,10 @@ module.exports = {
         meta() {
           glob.sync('../fixtures/mailonline_repos/*.json', { cwd: __dirname })
           .forEach(addRepoMock('MailOnline'));
+        },
+        teams() {
+          glob.sync('../fixtures/mailonline_repo_teams/*.json', { cwd: __dirname })
+          .forEach(addTeamsMock('MailOnline'));
         }
       },
       milojs: {
@@ -57,5 +61,13 @@ function addRepoMock(org) {
   return function (file) {
     const repoName = path.basename(file, '.json');
     mock(`/repos/${org}/${repoName}`, file);
+  };
+}
+
+
+function addTeamsMock(org) {
+  return function (file) {
+    const repoName = path.basename(file, '.json');
+    mock(`/repos/${org}/${repoName}/teams?per_page=30&page=1`, file);
   };
 }

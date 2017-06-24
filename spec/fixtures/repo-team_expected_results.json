@@ -1,0 +1,287 @@
+{
+  "MailOnline/hornetq-connector": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/rsyslog_legacy": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/metro-trackr-api": {
+    "repo-team": []
+  },
+  "MailOnline/jquery.ezmodal.js": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/s-metric": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/metro-polls-api": {
+    "repo-team": []
+  },
+  "MailOnline/cuteyp": {
+    "repo-team": []
+  },
+  "MailOnline/gif-loader": {
+    "repo-team": []
+  },
+  "MailOnline/grunt-css-annotator": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/sicp-mailonline": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/metro-ui-trending": {
+    "repo-team": []
+  },
+  "MailOnline/clj-stingray": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/gargamel": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/throttle": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/splunkbox": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/vim-cljrefactor": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/winston-amqp": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/state-keeper": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/forwarder": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/VPAIDFLASHClient": {
+    "repo-team": []
+  },
+  "MailOnline/videojs-vast-vpaid": {
+    "repo-team": []
+  },
+  "MailOnline/VPAIDHTML5Client": {
+    "repo-team": []
+  },
+  "MailOnline/json-schema-test": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/metro-vip-go": {
+    "repo-team": []
+  },
+  "MailOnline/lein-mailonline-template": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/ImageViewer": {
+    "repo-team": []
+  },
+  "MailOnline/node-zookeeper-build-fix": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/ansible-role-monit": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/transpile-middleware": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/ansible-role-log-forwarder": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/mol-utils": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/Reactor": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/estail": {
+    "repo-team": []
+  },
+  "MailOnline/mocklib": {
+    "repo-team": []
+  },
+  "MailOnline/table1_public_files": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/mol-heroku-sandbox": {
+    "repo-team": []
+  },
+  "MailOnline/located-monad-logger": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/eslint-config-mailonline": {
+    "repo-team": []
+  },
+  "MailOnline/formulae": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  },
+  "MailOnline/stylelint-config-mailonline": {
+    "repo-team": []
+  },
+  "MailOnline/mol-conventional-changelog": {
+    "repo-team": []
+  },
+  "MailOnline/eslint-config-mailonline-cc": {
+    "repo-team": []
+  },
+  "MailOnline/gh-lint": {
+    "repo-team": [
+      {
+        "valid": false,
+        "message": "Repo not assigned to one of specified teams",
+        "mode": 2
+      }
+    ]
+  }
+}

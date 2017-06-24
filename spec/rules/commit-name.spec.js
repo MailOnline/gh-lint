@@ -37,7 +37,8 @@ describe('rule commit-name', () => {
           'commit-name': [
             {
               mode: 2,
-              message: "Commit names do not satisfy requirements:\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`.",
+              message: "Bad commit names:\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`.",
+              messages: ["Bad commit name:\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`."],
               valid: false
             }
           ]
@@ -68,7 +69,8 @@ describe('rule commit-name', () => {
           'commit-name': [
             {
               mode: 2,
-              message: "Commit names do not satisfy requirements:\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`.",
+              message: "Bad commit names:\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`.",
+              messages: ["Bad commit name:\nchore: component.isReaady = false on destroy (#80)\n\n* chore: component.isReaady = false on destroy\r\n\r\n* Update c_class.js\r\n\r\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)\r\n\r\n* Update c_class.js\r\n\r\nBe sure `init()` sets `isReady` as `false`."],
               valid: false
             }
           ]

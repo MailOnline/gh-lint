@@ -29,7 +29,9 @@ describe('cli', () => {
 
       return ok(run(['check', '-c', './spec/fixtures/config-repos.json'], false))
       .then(() => {
-        assert.equal(log, 'warning MailOnline/videojs-vast-vpaid: repo-homepage - not satisfied');
+        assert.equal(log,
+`warning MailOnline/videojs-vast-vpaid: repo-homepage - not satisfied
+passed 3 out of 4`);
         assert(nock.isDone());
       });
     });
@@ -40,7 +42,9 @@ describe('cli', () => {
 
       return ok(run(['check', '-c', './spec/fixtures/config-repos.yml'], false))
       .then(() => {
-        assert.equal(log, 'warning MailOnline/videojs-vast-vpaid: repo-homepage - not satisfied');
+        assert.equal(log,
+`warning MailOnline/videojs-vast-vpaid: repo-homepage - not satisfied
+passed 3 out of 4`);
         assert(nock.isDone());
       });
     });

@@ -48,6 +48,39 @@ describe('prepareRepoRules', () => {
         // console.log(util.inspect(repoSourceRules, {depth: null}));
       });
     });
+
+    it('should support comma-separated list of repositories', () => {
+      const config = execute.prepareConfig({
+        org: 'MailOnline',
+        repositories: {
+          'mol-fe, milojs/milo': {
+            rules: {
+              'repo-description': 2,
+              'repo-homepage': 1
+            }
+          }
+        }
+      });
+
+      return execute.prepareRepoRules(config)
+      .then(repoSourceRules => {
+        assert.deepStrictEqual(repoSourceRules, {
+          'MailOnline/mol-fe': {
+            meta: {
+              'repo-description': [{ mode: 2, minLength: 1 }],
+              'repo-homepage': [{ mode: 1, minLength: 1 }]
+            }
+          },
+          'milojs/milo': {
+            meta: {
+              'repo-description': [{ mode: 2, minLength: 1 }],
+              'repo-homepage': [{ mode: 1, minLength: 1 }]
+            }
+          }
+        });
+        // console.log(util.inspect(repoSourceRules, {depth: null}));
+      });
+    });
   });
 
 

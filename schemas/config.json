@@ -33,7 +33,7 @@
         },
         "repositories": {
           "description": "A map of rules that apply to specific repositoriy (keys are names of repositories). Each name can be prefixed with '<org>/'",
-          "propertyNames": { "$ref": "defs.json#repoName" },
+          "propertyNames": { "$ref": "defs.json#repoNamesList" },
           "additionalProperties": { "$ref": "#scope" }
         }
       }

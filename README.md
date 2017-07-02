@@ -30,6 +30,7 @@ You can define rules for organisations, teams and specific repos.
 
 - repo-description: check that repo has description specified in GitHub UI
 - repo-homepage: check that repo has homepage specified in GitHub UI
+- repo-readme: check that repo has README file
 - repo-team: check that repo is assigned to one of specified teams
 
 

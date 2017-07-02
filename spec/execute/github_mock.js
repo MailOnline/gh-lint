@@ -52,8 +52,8 @@ module.exports = {
 };
 
 
-function mock(apiPath, file) {
-  nock('https://api.github.com').get(apiPath).reply(200, require(file));
+function mock(apiPath, file, statusCode=200) {
+  nock('https://api.github.com').get(apiPath).reply(statusCode, require(file));
 }
 
 

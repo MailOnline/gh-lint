@@ -13,7 +13,7 @@ describe('rule repo-readme', () => {
 
   it('should check that repo has README file', () => {
     githubMock.mock('/repos/milojs/milo/readme', '../fixtures/milojs_milo_readme.json');
-    githubMock.mock('/repos/milojs/new-repo/readme', '../fixtures/milojs_new-repo_readme.json');
+    githubMock.mock('/repos/milojs/new-repo/readme', '../fixtures/milojs_new-repo_readme.json', 404);
 
     const config = {
       org: 'milojs',

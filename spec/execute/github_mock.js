@@ -48,6 +48,21 @@ module.exports = {
         }
       }
     }
+  },
+  issues: {
+    milo: {
+      list() {
+        mock('/repos/milojs/milo/issues?since=2017-05-01&state=all&per_page=30&page=1',
+          '../fixtures/milojs_milo_issues.json');
+      },
+      pull(number) {
+        mock(`/repos/milojs/milo/pulls/${number}`, `../fixtures/milojs_milo_pull${number}.json`);
+      },
+      reviews(pullNumber) {
+        mock(`/repos/milojs/milo/pulls/${pullNumber}/reviews?per_page=30&page=1`,
+          `../fixtures/milojs_milo_pull${pullNumber}_reviews.json`);
+      }
+    }
   }
 };
 

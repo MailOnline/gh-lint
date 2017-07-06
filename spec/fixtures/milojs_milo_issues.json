@@ -1,0 +1,218 @@
+[
+  {
+    "url": "https://api.github.com/repos/milojs/milo/issues/86",
+    "repository_url": "https://api.github.com/repos/milojs/milo",
+    "labels_url": "https://api.github.com/repos/milojs/milo/issues/86/labels{/name}",
+    "comments_url": "https://api.github.com/repos/milojs/milo/issues/86/comments",
+    "events_url": "https://api.github.com/repos/milojs/milo/issues/86/events",
+    "html_url": "https://github.com/milojs/milo/pull/86",
+    "id": 240992570,
+    "number": 86,
+    "title": "feat: support a root el param in getOffset position util",
+    "user": {
+      "login": "jasoniangreen",
+      "id": 3481367,
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3481367?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasoniangreen",
+      "html_url": "https://github.com/jasoniangreen",
+      "followers_url": "https://api.github.com/users/jasoniangreen/followers",
+      "following_url": "https://api.github.com/users/jasoniangreen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasoniangreen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasoniangreen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasoniangreen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasoniangreen/orgs",
+      "repos_url": "https://api.github.com/users/jasoniangreen/repos",
+      "events_url": "https://api.github.com/users/jasoniangreen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasoniangreen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-07-06T15:18:44Z",
+    "updated_at": "2017-07-06T16:09:37Z",
+    "closed_at": "2017-07-06T16:09:37Z",
+    "pull_request": {
+      "url": "https://api.github.com/repos/milojs/milo/pulls/86",
+      "html_url": "https://github.com/milojs/milo/pull/86",
+      "diff_url": "https://github.com/milojs/milo/pull/86.diff",
+      "patch_url": "https://github.com/milojs/milo/pull/86.patch"
+    },
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/repos/milojs/milo/issues/85",
+    "repository_url": "https://api.github.com/repos/milojs/milo",
+    "labels_url": "https://api.github.com/repos/milojs/milo/issues/85/labels{/name}",
+    "comments_url": "https://api.github.com/repos/milojs/milo/issues/85/comments",
+    "events_url": "https://api.github.com/repos/milojs/milo/issues/85/events",
+    "html_url": "https://github.com/milojs/milo/pull/85",
+    "id": 230149660,
+    "number": 85,
+    "title": "Update grunt-contrib-uglify to version 3.0.1 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 439712519,
+        "url": "https://api.github.com/repos/milojs/milo/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-05-20T12:07:25Z",
+    "updated_at": "2017-05-20T12:07:26Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/milojs/milo/pulls/85",
+      "html_url": "https://github.com/milojs/milo/pull/85",
+      "diff_url": "https://github.com/milojs/milo/pull/85.diff",
+      "patch_url": "https://github.com/milojs/milo/pull/85.patch"
+    },
+    "body": "| 🚨🔥⚠️ _Action required_: Switch to the new [Greenkeeper](https://git.io/uptodate) now! 🚨🔥⚠️ |\n| --- |\n| This version of Greenkeper will be __shutdown on May 31st.__ |\n| With [Integrations](https://developer.github.com/early-access/integrations/) **first-class bot support** landed on GitHub and we’ve rewritten Greenkeeper to take full advantage of it. **Simpler setup, fewer pull-requests, faster than ever**.<br><br><img src=\"https://cloud.githubusercontent.com/assets/908178/19868156/20c1c0c4-9fa7-11e6-9f17-611c51677dbd.gif\" />\n\n---\nHello lovely humans,\n\n[grunt-contrib-uglify](https://www.npmjs.com/package/grunt-contrib-uglify) just published its new version 3.0.1.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      grunt-contrib-uglify\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      3.0.1\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      devDependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of grunt-contrib-uglify.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThe new version differs by 24 commits .\n\n- [`2773e7e`](https://github.com/gruntjs/grunt-contrib-uglify/commit/2773e7ea1332d12bd17fed8f186aa196f04caea3) <code>v3.0.1.</code>\n- [`85a1ac3`](https://github.com/gruntjs/grunt-contrib-uglify/commit/85a1ac32673b7ed49bcd00be39368cf558759ac5) <code>fix typo</code>\n- [`755360b`](https://github.com/gruntjs/grunt-contrib-uglify/commit/755360bee66c9d5a43650be7e82a88d88fca293b) <code>Move `require()` up</code>\n- [`0f45e4e`](https://github.com/gruntjs/grunt-contrib-uglify/commit/0f45e4ed3bf18088071b54b672a6be09966fda51) <code>v3.0.0.</code>\n- [`ccd7ad0`](https://github.com/gruntjs/grunt-contrib-uglify/commit/ccd7ad0efd8959fb1753c78e8010f8e21cbab6c9) <code>Upgrade to uglify-js 3.0.4. (#472)</code>\n- [`f3086c1`](https://github.com/gruntjs/grunt-contrib-uglify/commit/f3086c1da1edc284c767b12b7f5c08c5b1c07319) <code>v2.3.0.</code>\n- [`7dc5e1d`](https://github.com/gruntjs/grunt-contrib-uglify/commit/7dc5e1daf473e57786d9f1a921e935fc3bef203b) <code>Log fixes. (#454) r=vladikoff</code>\n- [`48fab36`](https://github.com/gruntjs/grunt-contrib-uglify/commit/48fab3616e3fc077ead7fd33e3b3f34bafddf2bc) <code>v2.2.1.</code>\n- [`f161c6d`](https://github.com/gruntjs/grunt-contrib-uglify/commit/f161c6de9f40b6cf719a5220dc8c8d5ac6ecaddb) <code>Clean up banner option.</code>\n- [`bbe1da0`](https://github.com/gruntjs/grunt-contrib-uglify/commit/bbe1da07fbdb67b40feca0baa602762ec560850c) <code>Update test files.</code>\n- [`3a718cf`](https://github.com/gruntjs/grunt-contrib-uglify/commit/3a718cfbb89abf70289e687d1e624c936259c3cd) <code>Update uglify-overview.md</code>\n- [`a34af0d`](https://github.com/gruntjs/grunt-contrib-uglify/commit/a34af0d31a7520ebd72bd5bb42fa2ff3e9ea6adb) <code>Merge pull request #453 from gruntjs/update-uglify</code>\n- [`48247f6`](https://github.com/gruntjs/grunt-contrib-uglify/commit/48247f680a2aa62643828d40521d0cdd4fd050fe) <code>v2.2.0.</code>\n- [`0f638cf`](https://github.com/gruntjs/grunt-contrib-uglify/commit/0f638cf45e07daa997ee9cbf782f1365400747ac) <code>Update uglify-js to v2.8.3.</code>\n- [`463d4d3`](https://github.com/gruntjs/grunt-contrib-uglify/commit/463d4d30655a8eec163fee575c5e42f7f3b18ef9) <code>Update docs.</code>\n\n\nThere are 24 commits in total. See the [full diff](https://github.com/gruntjs/grunt-contrib-uglify/compare/2d04f24e347cd6429856516385d61673a94d57ae...2773e7ea1332d12bd17fed8f186aa196f04caea3)."
+  },
+  {
+    "url": "https://api.github.com/repos/milojs/milo/issues/84",
+    "repository_url": "https://api.github.com/repos/milojs/milo",
+    "labels_url": "https://api.github.com/repos/milojs/milo/issues/84/labels{/name}",
+    "comments_url": "https://api.github.com/repos/milojs/milo/issues/84/comments",
+    "events_url": "https://api.github.com/repos/milojs/milo/issues/84/events",
+    "html_url": "https://github.com/milojs/milo/pull/84",
+    "id": 228272451,
+    "number": 84,
+    "title": "Update grunt-contrib-uglify to version 3.0.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 439712519,
+        "url": "https://api.github.com/repos/milojs/milo/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-05-12T12:07:52Z",
+    "updated_at": "2017-05-12T12:07:53Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/milojs/milo/pulls/84",
+      "html_url": "https://github.com/milojs/milo/pull/84",
+      "diff_url": "https://github.com/milojs/milo/pull/84.diff",
+      "patch_url": "https://github.com/milojs/milo/pull/84.patch"
+    },
+    "body": "| 🚨🔥⚠️ _Action required_: Switch to the new [Greenkeeper](https://git.io/uptodate) now! 🚨🔥⚠️ |\n| --- |\n| This version of Greenkeper will be __shutdown on May 31st.__ |\n| With [Integrations](https://developer.github.com/early-access/integrations/) **first-class bot support** landed on GitHub and we’ve rewritten Greenkeeper to take full advantage of it. **Simpler setup, fewer pull-requests, faster than ever**.<br><br><img src=\"https://cloud.githubusercontent.com/assets/908178/19868156/20c1c0c4-9fa7-11e6-9f17-611c51677dbd.gif\" />\n\n---\nHello lovely humans,\n\n[grunt-contrib-uglify](https://www.npmjs.com/package/grunt-contrib-uglify) just published its new version 3.0.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      grunt-contrib-uglify\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      3.0.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      devDependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of grunt-contrib-uglify.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThe new version differs by 21 commits .\n\n- [`0f45e4e`](https://github.com/gruntjs/grunt-contrib-uglify/commit/0f45e4ed3bf18088071b54b672a6be09966fda51) <code>v3.0.0.</code>\n- [`ccd7ad0`](https://github.com/gruntjs/grunt-contrib-uglify/commit/ccd7ad0efd8959fb1753c78e8010f8e21cbab6c9) <code>Upgrade to uglify-js 3.0.4. (#472)</code>\n- [`f3086c1`](https://github.com/gruntjs/grunt-contrib-uglify/commit/f3086c1da1edc284c767b12b7f5c08c5b1c07319) <code>v2.3.0.</code>\n- [`7dc5e1d`](https://github.com/gruntjs/grunt-contrib-uglify/commit/7dc5e1daf473e57786d9f1a921e935fc3bef203b) <code>Log fixes. (#454) r=vladikoff</code>\n- [`48fab36`](https://github.com/gruntjs/grunt-contrib-uglify/commit/48fab3616e3fc077ead7fd33e3b3f34bafddf2bc) <code>v2.2.1.</code>\n- [`f161c6d`](https://github.com/gruntjs/grunt-contrib-uglify/commit/f161c6de9f40b6cf719a5220dc8c8d5ac6ecaddb) <code>Clean up banner option.</code>\n- [`bbe1da0`](https://github.com/gruntjs/grunt-contrib-uglify/commit/bbe1da07fbdb67b40feca0baa602762ec560850c) <code>Update test files.</code>\n- [`3a718cf`](https://github.com/gruntjs/grunt-contrib-uglify/commit/3a718cfbb89abf70289e687d1e624c936259c3cd) <code>Update uglify-overview.md</code>\n- [`a34af0d`](https://github.com/gruntjs/grunt-contrib-uglify/commit/a34af0d31a7520ebd72bd5bb42fa2ff3e9ea6adb) <code>Merge pull request #453 from gruntjs/update-uglify</code>\n- [`48247f6`](https://github.com/gruntjs/grunt-contrib-uglify/commit/48247f680a2aa62643828d40521d0cdd4fd050fe) <code>v2.2.0.</code>\n- [`0f638cf`](https://github.com/gruntjs/grunt-contrib-uglify/commit/0f638cf45e07daa997ee9cbf782f1365400747ac) <code>Update uglify-js to v2.8.3.</code>\n- [`463d4d3`](https://github.com/gruntjs/grunt-contrib-uglify/commit/463d4d30655a8eec163fee575c5e42f7f3b18ef9) <code>Update docs.</code>\n- [`d85adc7`](https://github.com/gruntjs/grunt-contrib-uglify/commit/d85adc769f7d53976c164189466d3c302e474c5c) <code>Update uglify-examples.md (#449)</code>\n- [`90db406`](https://github.com/gruntjs/grunt-contrib-uglify/commit/90db406ab4e387acb99562a7bf3ad0454c6502b2) <code>2.1.0.</code>\n- [`3736268`](https://github.com/gruntjs/grunt-contrib-uglify/commit/373626827003303a2ad77b8014608874fc153b9c) <code>Minor lint tweaks.</code>\n\n\nThere are 21 commits in total. See the [full diff](https://github.com/gruntjs/grunt-contrib-uglify/compare/2d04f24e347cd6429856516385d61673a94d57ae...0f45e4ed3bf18088071b54b672a6be09966fda51)."
+  },
+  {
+    "url": "https://api.github.com/repos/milojs/milo/issues/80",
+    "repository_url": "https://api.github.com/repos/milojs/milo",
+    "labels_url": "https://api.github.com/repos/milojs/milo/issues/80/labels{/name}",
+    "comments_url": "https://api.github.com/repos/milojs/milo/issues/80/comments",
+    "events_url": "https://api.github.com/repos/milojs/milo/issues/80/events",
+    "html_url": "https://github.com/milojs/milo/pull/80",
+    "id": 210448951,
+    "number": 80,
+    "title": "chore: component.isReaady = false on destroy",
+    "user": {
+      "login": "WebReflection",
+      "id": 85749,
+      "avatar_url": "https://avatars0.githubusercontent.com/u/85749?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WebReflection",
+      "html_url": "https://github.com/WebReflection",
+      "followers_url": "https://api.github.com/users/WebReflection/followers",
+      "following_url": "https://api.github.com/users/WebReflection/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WebReflection/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WebReflection/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WebReflection/subscriptions",
+      "organizations_url": "https://api.github.com/users/WebReflection/orgs",
+      "repos_url": "https://api.github.com/users/WebReflection/repos",
+      "events_url": "https://api.github.com/users/WebReflection/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WebReflection/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+
+    ],
+    "state": "closed",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+
+    ],
+    "milestone": null,
+    "comments": 11,
+    "created_at": "2017-02-27T10:48:55Z",
+    "updated_at": "2017-05-12T07:35:15Z",
+    "closed_at": "2017-05-12T07:35:15Z",
+    "pull_request": {
+      "url": "https://api.github.com/repos/milojs/milo/pulls/80",
+      "html_url": "https://github.com/milojs/milo/pull/80",
+      "diff_url": "https://github.com/milojs/milo/pull/80.diff",
+      "patch_url": "https://github.com/milojs/milo/pull/80.patch"
+    },
+    "body": "In order to keep it nice and clean (and consistent) the `isReady` flag is set to false once each component gets destroyed."
+  }
+]

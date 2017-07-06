@@ -47,6 +47,14 @@ By default, these rules analyse the commits for the last 30 days. It can be chan
 - commit-name: check that commit names satisfy semantic commit conventions
 
 
+#### PR rules
+
+By default, these rules analyse the PRs for the last 30 days. It can be changed using option `--since` (see below).
+
+- pr-review: check that all PRs have at least one review that approved them
+
+
+
 ## Options
 
 - `-c` (or `--config`) - configuration file location

@@ -1,0 +1,44 @@
+[
+  {
+    "description": "plugin definition schema",
+    "schema": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/plugin.json#",
+    "tests": [
+      {
+        "description": "a simple valid plugin",
+        "data": {
+          "rules": {
+            "rule-1": {
+              "meta": {
+                "description": "Test rule",
+                "category": "Test"
+              },
+              "schema": {},
+              "source": "meta",
+              "check": {
+                "type": "object",
+                "required": ["description"],
+                "properties": {
+                  "description": {
+                    "type": "string",
+                    "minLength": 15
+                  }
+                }
+              }
+            }
+          }
+        },
+        "valid": true
+      },
+      {
+        "description": "an invalid plugin (not an object)",
+        "data": [],
+        "valid": false
+      },
+      {
+        "description": "an invalid plugin (no rules defined)",
+        "data": {},
+        "valid": false
+      }
+    ]
+  }
+]

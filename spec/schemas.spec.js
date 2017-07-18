@@ -13,6 +13,7 @@ require('ajv-keywords')(ajv, ['typeof', 'patternRequired']);
 ajv.addSchema(require('../schemas/defs.json'));
 ajv.addSchema(require('../schemas/rule.json'));
 ajv.addSchema(require('../schemas/config.json'));
+ajv.addSchema(require('../schemas/plugin.json'));
 
 
 jsonSchemaTest([ajv], {

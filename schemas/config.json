@@ -15,7 +15,7 @@
         { "required": ["teams"] },
         { "required": ["repositories"] }
       ],
-      "propertyNames": { "enum": ["org", "organizations", "teams", "repositories", "extends", "rules"] },
+      "propertyNames": { "enum": ["org", "organizations", "teams", "repositories", "extends", "rules", "plugins"] },
       "properties": {
         "org": {
           "description": "Default GitHub organization",
@@ -35,6 +35,16 @@
           "description": "A map of rules that apply to specific repositoriy (keys are names of repositories). Each name can be prefixed with '<org>/'",
           "propertyNames": { "$ref": "defs.json#repoNamesList" },
           "additionalProperties": { "$ref": "#scope" }
+        },
+        "plugins": {
+          "description": "An optional array of plugin names",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              { "$ref": "defs.json#pluginName" },
+              { "$ref": "defs.json#pluginShortName" }
+            ]
+          }
         }
       }
     }

@@ -26,6 +26,18 @@
       "id": "#repoNamesList",
       "type": "string",
       "pattern": "^(?:(?:(?:[A-Za-z0-9]+[-]?)+[A-Za-z0-9]\/)?[A-Za-z0-9_-]+\\s*,\\s*)*(?:(?:[A-Za-z0-9]+[-]?)+[A-Za-z0-9]\/)?[A-Za-z0-9_-]+$"
+    },
+    "pluginName": {
+      "id": "#pluginName",
+      "type": "string",
+      "pattern": "^ghlint-plugin-(?:[A-Za-z0-9]+[-]?)+[A-Za-z0-9]$",
+      "not": { "pattern": ".{14,}(?:ghlint|plugin)" }
+    },
+    "pluginShortName": {
+      "id": "#pluginShortName",
+      "type": "string",
+      "pattern": "^(?:[A-Za-z0-9]+[-]?)+[A-Za-z0-9]$",
+      "not": { "pattern": "ghlint|plugin" }
     }
   }
 }

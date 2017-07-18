@@ -1,0 +1,13 @@
+{
+  "id": "https://raw.githubusercontent.com/MailOnline/gh-lint/master/schemas/plugin.json#",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "required": ["rules"],
+  "properties": {
+    "rules": {
+      "propertyNames": { "$ref": "defs.json#ruleName" },
+      "additionalProperties": { "$ref": "rule.json#" }
+    }
+  },
+  "additionalProperties": false
+}

@@ -74,6 +74,46 @@
           "unknown": {}
         },
         "valid": false
+      },
+      {
+        "description": "a valid configuration with plugins",
+        "data": {
+          "org": "MailOnline",
+          "rules": {
+            "rule-1": 2
+          },
+          "plugins": [
+            "mol-repo-names",
+            "ghlint-plugin-mol-pr-names"
+          ]
+        },
+        "valid": true
+      },
+      {
+        "description": "an invalid configuration with plugins (invalid plugin name)",
+        "data": {
+          "org": "MailOnline",
+          "rules": {
+            "rule-1": 2
+          },
+          "plugins": [
+            "mol-plugin"
+          ]
+        },
+        "valid": false
+      },
+      {
+        "description": "an invalid configuration with plugins (plugins config is not an array)",
+        "data": {
+          "org": "MailOnline",
+          "rules": {
+            "rule-1": 2
+          },
+          "plugins": {
+            "mol-repo-names": true
+          }
+        },
+        "valid": false
       }
     ]
   }

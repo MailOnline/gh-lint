@@ -19,7 +19,7 @@ describe('prepareConfig', () => {
           'some-unknown-rule': 2
         }
       });
-    }, /cannot find rule/);
+    }, /is not defined/);
   });
 
   it('should throw exception if rule options are invalid', () => {

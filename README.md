@@ -54,7 +54,6 @@ By default, these rules analyse the PRs for the last 30 days. It can be changed 
 - pr-review: check that all PRs have at least one review that approved them
 
 
-
 ## Options
 
 - `-c` (or `--config`) - configuration file location

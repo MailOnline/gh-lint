@@ -6,6 +6,29 @@ Rule-based command-line tool for monitoring GitHub repositories
 [![Coverage Status](https://coveralls.io/repos/MailOnline/gh-lint/badge.svg?branch=master&service=github)](https://coveralls.io/github/MailOnline/gh-lint?branch=master)
 
 
+## Contents
+
+- [Install](#install)
+- [Usage](#usage)
+- [Rules](#rules)
+  - [Repo rules](#repo-rules)
+  - [Branch rules](#branch-rules)
+  - [Commit rules](#commit-rules)
+  - [PR rules](#pr-rules)
+- [Options](#options)
+- [Plugins](#plugins)
+- [License](#license)
+
+
+## Why gh-lint?
+
+When you agree on some development guidelines, you need to know when they are not followed.
+
+Most major open-source projects have adopted some automation to validate contribution guidelines. With **gh-lint** you can validate guidelines in public and private repositories across multiple organisations using pre-defined and custom rules.
+
+See the talk about the development guidelines and **gh-lint** at FullStack 2017: [video](https://skillsmatter.com/skillscasts/10399-auditing-development-guidelines-in-github-repositories) and [slides](https://www.slideshare.net/epoberezkin/auditing-development-guidelines-in-github-repositories).
+
+
 ## Install
 
 ```bash
@@ -22,6 +45,10 @@ ghlint -c config.json -u $GITHUB_USERNAME -p $GITHUB_TOKEN
 where config.json is a configuration file described by [this schema](https://github.com/MailOnline/gh-lint/blob/master/schemas/config.json).
 
 You can define rules for organisations, teams and specific repos.
+
+**gh-lint** can generate output in TAP format (with option `--tap`) that can be consumed by [tap-github-issues](https://github.com/MailOnline/tap-github-issues) to open, close and update issues in the GitHub repositories where the rules are checked.
+
+See [gh-lint-demo](https://github.com/MailOnline/gh-lint-demo) for the example configuration and the scripts to run **gh-lint** and **tap-github-issues**.
 
 
 ## Rules

@@ -64,6 +64,15 @@ By default, these rules analyse the PRs for the last 30 days. It can be changed 
 - `--tap` - output results in TAP format
 
 
+## Plugins
+
+Rules can be defined in external modules.
+
+The package name must be prefixed with "ghlint-plugin-". In the configuration file a plugin name can be used with or without this prefix.
+
+A plugin package should export an object with a single property "rules" that has a map of rule definitions. Each rule should be valid according to the [rule schema](https://github.com/MailOnline/gh-lint/blob/master/schemas/rule.json).
+
+
 ## License
 
 [MIT](https://github.com/MailOnline/gh-lint/blob/master/LICENSE)

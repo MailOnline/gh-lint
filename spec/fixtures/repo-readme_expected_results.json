@@ -1,15 +1,15 @@
 {
   "milojs/milo": {
-    "repo-readme": []
+    "repo-readme": {
+      "valid": true
+    }
   },
   "milojs/new-repo": {
-    "repo-readme": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data should have required property 'content', data should have required property 'encoding'",
-        "mode": 2
-      }
-    ]
+    "repo-readme": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data should have required property 'content', data should have required property 'encoding'",
+      "mode": 2
+    }
   }
 }

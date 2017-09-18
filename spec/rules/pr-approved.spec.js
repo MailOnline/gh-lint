@@ -6,7 +6,7 @@ const nock = require('nock');
 const githubMock = require('../execute/github_mock');
 
 
-describe('rule repo-readme', () => {
+describe('rule pr-approved', () => {
   afterEach(() => {
     nock.cleanAll();
   });
@@ -33,16 +33,14 @@ describe('rule repo-readme', () => {
     .then((results) => {
       assert.deepStrictEqual(results, {
         'milojs/milo': {
-          'pr-approved': [
-            {
-              valid: false,
-              message: '1 unapproved PR merged by @jasoniangreen',
-              messages: [
-                'Unapproved PR merged by @jasoniangreen:\nhttps://github.com/milojs/milo/pull/80\nchore: component.isReaady = false on destroy'
-              ],
-              mode: 2
-            }
-          ]
+          'pr-approved': {
+            valid: false,
+            message: '1 unapproved PR merged by @jasoniangreen',
+            messages: [
+              'Unapproved PR merged by @jasoniangreen:\nhttps://github.com/milojs/milo/pull/80\nchore: component.isReaady = false on destroy'
+            ],
+            mode: 2
+          }
         }
       });
       assert(nock.isDone());

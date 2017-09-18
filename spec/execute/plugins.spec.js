@@ -33,7 +33,7 @@ describe('plugins', () => {
     .then((results) => {
       assert.deepStrictEqual(results, {
         'MailOnline/mol-utils': {
-          'mol-repo-name': []
+          'mol-repo-name':  {valid: true}
         }
       });
       assert(nock.isDone());
@@ -60,14 +60,12 @@ describe('plugins', () => {
     .then((results) => {
       assert.deepStrictEqual(results, {
         'milojs/milo': {
-          'mol-repo-name': [
-            {
-              errors: 'data.name should match pattern "^mol-"',
-              message: 'not satisfied',
-              mode: 2,
-              valid: false
-            }
-          ]
+          'mol-repo-name': {
+            errors: 'data.name should match pattern "^mol-"',
+            message: 'not satisfied',
+            mode: 2,
+            valid: false
+          }
         }
       });
       assert(nock.isDone());

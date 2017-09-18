@@ -37,11 +37,11 @@ describe('prepareRepoRules', () => {
       .then(repoSourceRules => {
         assert.deepStrictEqual(repoSourceRules, {
           'MailOnline/mol-fe': {
-            meta: { 'repo-description': [{ mode: 2, minLength: 1 }] } },
+            meta: { 'repo-description': { mode: 2, minLength: 1 } } },
           'milojs/milo': {
             meta: {
-              'repo-description': [{ mode: 2, minLength: 16 }],
-              'repo-homepage': [{ mode: 1, minLength: 1 }]
+              'repo-description': { mode: 2, minLength: 16 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           }
         });
@@ -67,14 +67,14 @@ describe('prepareRepoRules', () => {
         assert.deepStrictEqual(repoSourceRules, {
           'MailOnline/mol-fe': {
             meta: {
-              'repo-description': [{ mode: 2, minLength: 1 }],
-              'repo-homepage': [{ mode: 1, minLength: 1 }]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'milojs/milo': {
             meta: {
-              'repo-description': [{ mode: 2, minLength: 1 }],
-              'repo-homepage': [{ mode: 1, minLength: 1 }]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           }
         });
@@ -99,44 +99,44 @@ describe('prepareRepoRules', () => {
         assert.deepStrictEqual(repoSourceRules, {
           'MailOnline/cuteyp': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/json-schema-test': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/ImageViewer': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/gh-lint': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'milojs/milo': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'milojs/proto': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'milojs/milo-core': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           }
         });
@@ -159,38 +159,38 @@ describe('prepareRepoRules', () => {
         assert.deepStrictEqual(repoSourceRules, {
           'MailOnline/eslint-config-mailonline': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/mol-conventional-changelog': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/stylelint-config-mailonline': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/videojs-vast-vpaid': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/VPAIDFLASHClient': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/VPAIDHTML5Client': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           }
         });
@@ -210,20 +210,20 @@ describe('prepareRepoRules', () => {
         assert.deepStrictEqual(repoSourceRules, {
           'MailOnline/videojs-vast-vpaid': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/VPAIDFLASHClient': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           },
           'MailOnline/VPAIDHTML5Client': {
             meta: {
-              'repo-description': [ { mode: 2, minLength: 1 } ],
-              'repo-homepage': [ { mode: 1, minLength: 1 } ]
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
             }
           }
         });

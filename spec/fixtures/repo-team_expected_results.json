@@ -1,365 +1,347 @@
 {
   "MailOnline/hornetq-connector": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/rsyslog_legacy": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/metro-trackr-api": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/jquery.ezmodal.js": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/s-metric": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/metro-polls-api": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/cuteyp": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/gif-loader": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/grunt-css-annotator": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/sicp-mailonline": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/metro-ui-trending": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/clj-stingray": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/gargamel": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/throttle": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/splunkbox": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/vim-cljrefactor": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/winston-amqp": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/state-keeper": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/forwarder": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/VPAIDFLASHClient": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/videojs-vast-vpaid": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/VPAIDHTML5Client": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/json-schema-test": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/metro-vip-go": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/lein-mailonline-template": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/ImageViewer": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/node-zookeeper-build-fix": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/ansible-role-monit": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/transpile-middleware": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/ansible-role-log-forwarder": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/mol-utils": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/Reactor": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/estail": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/mocklib": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/table1_public_files": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/mol-heroku-sandbox": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/located-monad-logger": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/eslint-config-mailonline": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/formulae": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   },
   "MailOnline/stylelint-config-mailonline": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/mol-conventional-changelog": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/eslint-config-mailonline-cc": {
-    "repo-team": []
+    "repo-team": {
+      "valid": true
+    }
   },
   "MailOnline/gh-lint": {
-    "repo-team": [
-      {
-        "valid": false,
-        "message": "Repo not assigned to one of specified teams",
-        "messages": [
-          "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
-        ],
-        "mode": 2
-      }
-    ]
+    "repo-team": {
+      "valid": false,
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2
+    }
   }
 }

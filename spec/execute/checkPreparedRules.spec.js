@@ -17,8 +17,8 @@ describe('checkPreparedRules', () => {
     const repoSourceRules = {
       'milojs/milo': {
         meta: {
-          'repo-description': [{ mode: 2, minLength: 16 }],
-          'repo-homepage': [{ mode: 1 }]
+          'repo-description': { mode: 2, minLength: 16 },
+          'repo-homepage': { mode: 1 }
         }
       }
     };
@@ -27,8 +27,8 @@ describe('checkPreparedRules', () => {
     .then((results) => {
       assert.deepStrictEqual(results, {
         'milojs/milo': {
-          'repo-description': [], // no errors
-          'repo-homepage': []     // no errors
+          'repo-description': {valid: true},
+          'repo-homepage': {valid: true}
         }
       });
       assert(nock.isDone());
@@ -42,8 +42,8 @@ describe('checkPreparedRules', () => {
     const repoSourceRules = {
       'MailOnline/videojs-vast-vpaid': {
         meta: {
-          'repo-description': [{ mode: 2, minLength: 16 }],
-          'repo-homepage': [{ mode: 1 }]
+          'repo-description': { mode: 2, minLength: 16 },
+          'repo-homepage': { mode: 1 }
         }
       }
     };
@@ -52,15 +52,13 @@ describe('checkPreparedRules', () => {
     .then((results) => {
       assert.deepStrictEqual(results, {
         'MailOnline/videojs-vast-vpaid': {
-          'repo-description': [], // no errors
-          'repo-homepage': [
-            {
-              errors: 'data.homepage should be string',
-              message: 'not satisfied',
-              mode: 1,
-              valid: false
-            }
-          ]
+          'repo-description': {valid: true},
+          'repo-homepage': {
+            errors: 'data.homepage should be string',
+            message: 'not satisfied',
+            mode: 1,
+            valid: false
+          }
         }
       });
       assert(nock.isDone());

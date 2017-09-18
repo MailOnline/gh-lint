@@ -1,545 +1,549 @@
 {
   "MailOnline/hornetq-connector": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description": {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/rsyslog_legacy": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/metro-trackr-api": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/jquery.ezmodal.js": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/s-metric": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/metro-polls-api": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/cuteyp": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/gif-loader": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/grunt-css-annotator": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/sicp-mailonline": {
-    "repo-description": [],
-    "repo-homepage": []
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage":  {
+      "valid": true
+    }
   },
   "MailOnline/metro-ui-trending": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/clj-stingray": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should NOT be shorter than 10 characters",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should NOT be shorter than 10 characters",
+      "mode": 1
+    }
   },
   "MailOnline/gargamel": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should NOT be shorter than 10 characters",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should NOT be shorter than 10 characters",
+      "mode": 1
+    }
   },
   "MailOnline/throttle": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/splunkbox": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/vim-cljrefactor": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/winston-amqp": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/state-keeper": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/forwarder": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should NOT be shorter than 10 characters",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should NOT be shorter than 10 characters",
+      "mode": 1
+    }
   },
   "MailOnline/VPAIDFLASHClient": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/videojs-vast-vpaid": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/VPAIDHTML5Client": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should NOT be shorter than 10 characters",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should NOT be shorter than 10 characters",
+      "mode": 1
+    }
   },
   "MailOnline/json-schema-test": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/metro-vip-go": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/lein-mailonline-template": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/ImageViewer": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should NOT be shorter than 10 characters",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should NOT be shorter than 10 characters",
+      "mode": 1
+    }
   },
   "MailOnline/node-zookeeper-build-fix": {
-    "repo-description": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.description should be string",
-        "mode": 2
-      }
-    ],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.description should be string",
+      "mode": 2
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/ansible-role-monit": {
-    "repo-description": [],
-    "repo-homepage": []
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": true
+    }
   },
   "MailOnline/transpile-middleware": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/ansible-role-log-forwarder": {
-    "repo-description": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.description should be string",
-        "mode": 2
-      }
-    ],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.description should be string",
+      "mode": 2
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/mol-utils": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/Reactor": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should NOT be shorter than 10 characters",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should NOT be shorter than 10 characters",
+      "mode": 1
+    }
   },
   "MailOnline/estail": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/mocklib": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/table1_public_files": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/mol-heroku-sandbox": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/located-monad-logger": {
-    "repo-description": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.description should be string",
-        "mode": 2
-      }
-    ],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.description should be string",
+      "mode": 2
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/eslint-config-mailonline": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should NOT be shorter than 10 characters",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should NOT be shorter than 10 characters",
+      "mode": 1
+    }
   },
   "MailOnline/formulae": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/stylelint-config-mailonline": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should NOT be shorter than 10 characters",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should NOT be shorter than 10 characters",
+      "mode": 1
+    }
   },
   "MailOnline/mol-conventional-changelog": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/eslint-config-mailonline-cc": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "MailOnline/gh-lint": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "milojs/milo": {
-    "repo-description": [],
-    "repo-homepage": []
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": true
+    }
   },
   "milojs/proto": {
-    "repo-description": [],
-    "repo-homepage": []
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": true
+    }
   },
   "milojs/milo-core": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "milojs/milo-ui": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "milojs/slack-clone": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "milojs/ml-check": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   },
   "milojs/ml-mixin": {
-    "repo-description": [],
-    "repo-homepage": [
-      {
-        "valid": false,
-        "message": "not satisfied",
-        "errors": "data.homepage should be string",
-        "mode": 1
-      }
-    ]
+    "repo-description":  {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should be string",
+      "mode": 1
+    }
   }
 }

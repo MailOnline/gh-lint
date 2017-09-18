@@ -32,8 +32,8 @@ describe('checkRules', () => {
     .then((results) => {
       assert.deepStrictEqual(results, {
         'milojs/milo': {
-          'repo-description': [], // no errors
-          'repo-homepage': []     // no errors
+          'repo-description': {valid: true},
+          'repo-homepage': {valid: true}
         }
       });
       assert(nock.isDone());
@@ -51,19 +51,17 @@ describe('checkRules', () => {
     .then((results) => {
       assert.deepStrictEqual(results, {
         'milojs/milo': {
-          'repo-description': [], // no errors
-          'repo-homepage': []     // no errors
+          'repo-description': {valid: true},
+          'repo-homepage': {valid: true}
         },
         'MailOnline/videojs-vast-vpaid': {
-          'repo-description': [], // no errors
-          'repo-homepage': [
-            {
-              errors: 'data.homepage should be string',
-              message: 'not satisfied',
-              mode: 1,
-              valid: false
-            }
-          ]
+          'repo-description': {valid: true},
+          'repo-homepage': {
+            errors: 'data.homepage should be string',
+            message: 'not satisfied',
+            mode: 1,
+            valid: false
+          }
         }
       });
       assert(nock.isDone());

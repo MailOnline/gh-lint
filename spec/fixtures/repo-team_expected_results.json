@@ -51,7 +51,12 @@
   },
   "MailOnline/cuteyp": {
     "repo-team": {
-      "valid": true
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2,
+      "valid": false
     }
   },
   "MailOnline/gif-loader": {
@@ -206,7 +211,12 @@
   },
   "MailOnline/ImageViewer": {
     "repo-team": {
-      "valid": true
+      "message": "Repo not assigned to one of specified teams",
+      "messages": [
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+      ],
+      "mode": 2,
+      "valid": false
     }
   },
   "MailOnline/node-zookeeper-build-fix": {

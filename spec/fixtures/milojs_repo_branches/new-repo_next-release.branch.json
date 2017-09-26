@@ -1,0 +1,88 @@
+{
+  "name": "next-release",
+  "commit": {
+    "sha": "7672375552dd686234c3307daf782090c00f3788",
+    "commit": {
+      "author": {
+        "name": "Jason Ian Green",
+        "email": "jasoniangreen@gmail.com",
+        "date": "2017-07-13T08:35:05Z"
+      },
+      "committer": {
+        "name": "Jason Ian Green",
+        "email": "jasoniangreen@gmail.com",
+        "date": "2017-07-13T08:35:05Z"
+      },
+      "message": "fix: couple of bugs and missing deps",
+      "tree": {
+        "sha": "7c8a8762daffe30594cdec143b47c38f2a9234aa",
+        "url": "https://api.github.com/repos/milojs/new-repo/git/trees/7c8a8762daffe30594cdec143b47c38f2a9234aa"
+      },
+      "url": "https://api.github.com/repos/milojs/new-repo/git/commits/7672375552dd686234c3307daf782090c00f3788",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/milojs/new-repo/commits/7672375552dd686234c3307daf782090c00f3788",
+    "html_url": "https://github.com/milojs/new-repo/commit/7672375552dd686234c3307daf782090c00f3788",
+    "comments_url": "https://api.github.com/repos/milojs/new-repo/commits/7672375552dd686234c3307daf782090c00f3788/comments",
+    "author": {
+      "login": "jasoniangreen",
+      "id": 3481367,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3481367?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasoniangreen",
+      "html_url": "https://github.com/jasoniangreen",
+      "followers_url": "https://api.github.com/users/jasoniangreen/followers",
+      "following_url": "https://api.github.com/users/jasoniangreen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasoniangreen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasoniangreen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasoniangreen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasoniangreen/orgs",
+      "repos_url": "https://api.github.com/users/jasoniangreen/repos",
+      "events_url": "https://api.github.com/users/jasoniangreen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasoniangreen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jasoniangreen",
+      "id": 3481367,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3481367?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasoniangreen",
+      "html_url": "https://github.com/jasoniangreen",
+      "followers_url": "https://api.github.com/users/jasoniangreen/followers",
+      "following_url": "https://api.github.com/users/jasoniangreen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasoniangreen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasoniangreen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasoniangreen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasoniangreen/orgs",
+      "repos_url": "https://api.github.com/users/jasoniangreen/repos",
+      "events_url": "https://api.github.com/users/jasoniangreen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasoniangreen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c68fbf6775cfe130aa0b0bf61b89b559571a761d",
+        "url": "https://api.github.com/repos/milojs/new-repo/commits/c68fbf6775cfe130aa0b0bf61b89b559571a761d",
+        "html_url": "https://github.com/milojs/new-repo/commit/c68fbf6775cfe130aa0b0bf61b89b559571a761d"
+      }
+    ]
+  },
+  "_links": {
+    "self": "https://api.github.com/repos/milojs/new-repo/branches/next-release",
+    "html": "https://github.com/milojs/new-repo/tree/next-release"
+  },
+  "protected": false,
+  "protection": {
+    "enabled": false,
+    "required_status_checks": {
+      "enforcement_level": "off",
+      "contexts": [
+
+      ]
+    }
+  },
+  "protection_url": "https://api.github.com/repos/milojs/new-repo/branches/next-release/protection"
+}

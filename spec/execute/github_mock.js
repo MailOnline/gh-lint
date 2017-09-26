@@ -33,6 +33,12 @@ module.exports = {
         meta(repos) {
           glob.sync('../fixtures/milojs_repos/*.json', { cwd: __dirname })
           .forEach(addRepoMock('milojs', repos));
+        },
+        branches() {
+          glob.sync('../fixtures/milojs_repo_branches/*.list.json', { cwd: __dirname })
+          .forEach(addBranchesMock('milojs'));
+          glob.sync('../fixtures/milojs_repo_branches/*.branch.json', { cwd: __dirname })
+          .forEach(addBranchMock('milojs'));
         }
       }
     },
@@ -85,5 +91,21 @@ function addTeamsMock(org) {
   return function (file) {
     const repoName = path.basename(file, '.json');
     mock(`/repos/${org}/${repoName}/teams?per_page=30&page=1`, file);
+  };
+}
+
+
+function addBranchesMock(org) {
+  return function (file) {
+    const repoName = path.basename(file, '.list.json');
+    mock(`/repos/${org}/${repoName}/branches?per_page=30&page=1`, file);
+  };
+}
+
+
+function addBranchMock(org) {
+  return function (file) {
+    const [repoName, branchName] = path.basename(file, '.branch.json').split('_');
+    mock(`/repos/${org}/${repoName}/branches/${branchName}`, file);
   };
 }

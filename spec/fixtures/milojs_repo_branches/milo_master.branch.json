@@ -1,0 +1,88 @@
+{
+  "name": "master",
+  "commit": {
+    "sha": "48a9061cdb37925780e262a3a84ba554db2c4c74",
+    "commit": {
+      "author": {
+        "name": "Richard Walton",
+        "email": "walton909@gmail.com",
+        "date": "2017-09-18T14:56:17Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-09-18T14:56:17Z"
+      },
+      "message": "feat: Attempt to create missing facets if they are present in Component state (#91)\n\nfeat: Attempt to create missing facets if they are present in Component state\r\n\r\nImproves flexibility of milo allowing stateful facets to be saved/restored when the facet was added at runtime (rather than in a component definition)",
+      "tree": {
+        "sha": "4f77e119262599d947fc28a0e4ae4e212c46da3e",
+        "url": "https://api.github.com/repos/milojs/milo/git/trees/4f77e119262599d947fc28a0e4ae4e212c46da3e"
+      },
+      "url": "https://api.github.com/repos/milojs/milo/git/commits/48a9061cdb37925780e262a3a84ba554db2c4c74",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/milojs/milo/commits/48a9061cdb37925780e262a3a84ba554db2c4c74",
+    "html_url": "https://github.com/milojs/milo/commit/48a9061cdb37925780e262a3a84ba554db2c4c74",
+    "comments_url": "https://api.github.com/repos/milojs/milo/commits/48a9061cdb37925780e262a3a84ba554db2c4c74/comments",
+    "author": {
+      "login": "Richard-Walton",
+      "id": 481427,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/481427?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Richard-Walton",
+      "html_url": "https://github.com/Richard-Walton",
+      "followers_url": "https://api.github.com/users/Richard-Walton/followers",
+      "following_url": "https://api.github.com/users/Richard-Walton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Richard-Walton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Richard-Walton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Richard-Walton/subscriptions",
+      "organizations_url": "https://api.github.com/users/Richard-Walton/orgs",
+      "repos_url": "https://api.github.com/users/Richard-Walton/repos",
+      "events_url": "https://api.github.com/users/Richard-Walton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Richard-Walton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f1a6bc21ea7bec1538393b2907ca45c5678cf32a",
+        "url": "https://api.github.com/repos/milojs/milo/commits/f1a6bc21ea7bec1538393b2907ca45c5678cf32a",
+        "html_url": "https://github.com/milojs/milo/commit/f1a6bc21ea7bec1538393b2907ca45c5678cf32a"
+      }
+    ]
+  },
+  "_links": {
+    "self": "https://api.github.com/repos/milojs/milo/branches/master",
+    "html": "https://github.com/milojs/milo/tree/master"
+  },
+  "protected": true,
+  "protection": {
+    "enabled": true,
+    "required_status_checks": {
+      "enforcement_level": "non_admins",
+      "contexts": [
+        "continuous-integration/travis-ci"
+      ]
+    }
+  },
+  "protection_url": "https://api.github.com/repos/milojs/milo/branches/master/protection"
+}

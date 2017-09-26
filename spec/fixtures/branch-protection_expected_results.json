@@ -1,0 +1,28 @@
+{
+  "milojs/milo": {
+    "branch-protection": {
+      "valid": true
+    }
+  },
+  "milojs/slack-clone": {
+    "branch-protection": {
+      "valid": false,
+      "message": "Unprotected branch: master",
+      "messages": [
+        "Unprotected branch master"
+      ],
+      "mode": 2
+    }
+  },
+  "milojs/new-repo": {
+    "branch-protection": {
+      "valid": false,
+      "message": "Unprotected branches: master, next-release",
+      "messages": [
+        "Unprotected branch master",
+        "Unprotected branch next-release"
+      ],
+      "mode": 2
+    }
+  }
+}

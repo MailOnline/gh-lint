@@ -1,0 +1,16 @@
+[
+  {
+    "name": "master",
+    "commit": {
+      "sha": "7672375552dd686234c3307daf782090c00f3788",
+      "url": "https://api.github.com/repos/milojs/new-repo/commits/7672375552dd686234c3307daf782090c00f3788"
+    }
+  },
+  {
+    "name": "next-release",
+    "commit": {
+      "sha": "43683128651965cb9ca296f275a6346a0a644976",
+      "url": "https://api.github.com/repos/milojs/new-repo/commits/43683128651965cb9ca296f275a6346a0a644976"
+    }
+  }
+]

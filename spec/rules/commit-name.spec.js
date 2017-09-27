@@ -76,6 +76,35 @@ describe('rule commit-name', () => {
     });
   });
 
+  it('should use default since option', () => {
+    const defaultSinceDate = encodeURIComponent(execute.dateDaysAgo(30).toISOString());
+    const apiPath = `/repos/milojs/milo/commits?since=${defaultSinceDate}&per_page=30&page=1`;
+    nock('https://api.github.com').get(apiPath).reply(200, []);
+
+    const config = {
+      org: 'MailOnline',
+      repositories: {
+        'milojs/milo': {
+          rules: {
+            'commit-name': 2
+          }
+        }
+      }
+    };
+
+    return execute.checkRules(config)
+    .then((results) => {
+      assert.deepStrictEqual(results, {
+        'milojs/milo': {
+          'commit-name': {
+            valid: true
+          }
+        }
+      });
+      assert(nock.isDone());
+    });
+  });
+
   it('should pass if longer message length allowed', () => {
     githubMock.mock('/repos/milojs/milo/commits?since=2017-04-23&per_page=30&page=1', '../fixtures/milojs_milo_commits');
 

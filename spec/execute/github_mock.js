@@ -47,10 +47,12 @@ module.exports = {
         list() {
           mock('/teams/25/repos?per_page=30&page=1', '../fixtures/molfe_repos.json');
         },
-        meta() {
+        meta(teamPermission) { // 'pull', 'push', 'admin'
           const repos = require('../fixtures/molfe_repos.json');
-          for (const repo of repos)
-            mock(`/repos/MailOnline/${repo.name}`, path.join(__dirname, `../fixtures/mailonline_repos/${repo.name}.json`));
+          for (const repo of repos) {
+            if (!teamPermission || repo.permissions[teamPermission])
+              mock(`/repos/MailOnline/${repo.name}`, path.join(__dirname, `../fixtures/mailonline_repos/${repo.name}.json`));
+          }
         }
       }
     }

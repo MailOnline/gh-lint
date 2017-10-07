@@ -55,11 +55,24 @@ describe('github', function() {
 
 
     describe('.team', () => {
-      it('should load organization repos', () => {
+      it('should load team repos only with admin team access', () => {
         githubMock.teams();
         githubMock.repos.team.mol_fe.list();
 
         return github.getRepos.team('MailOnline', '#mol-fe')
+        .then(result => {
+          const expectedRepos = require('../fixtures/molfe_repos.json')
+                                .filter(r => r.permissions.admin);
+          assert.deepStrictEqual(result, expectedRepos);
+          assert(nock.isDone());
+        });
+      });
+
+      it('should load team repos with any access', () => {
+        githubMock.teams();
+        githubMock.repos.team.mol_fe.list();
+
+        return github.getRepos.team('MailOnline', '#mol-fe', 'read')
         .then(result => {
           assert.deepStrictEqual(result, require('../fixtures/molfe_repos.json'));
           assert(nock.isDone());

@@ -86,16 +86,31 @@ describe('checkRules', () => {
   });
 
 
-  it('should execute rules for all repos of a team', () => {
+  it('should execute rules for all repos assigned to a team with admin permission only', () => {
     githubMock.teams();
     githubMock.repos.team.mol_fe.list();
-    githubMock.repos.team.mol_fe.meta();
+    githubMock.repos.team.mol_fe.meta('admin');
 
     const config = require('../fixtures/config-teams.json');
 
     return execute.checkRules(config)
     .then((results) => {
       assert.deepStrictEqual(results, require('../fixtures/config-teams_expected_results.json'));
+      assert(nock.isDone());
+    });
+  });
+
+
+  it('should execute rules for all repos assigned to a team with any permission level', () => {
+    githubMock.teams();
+    githubMock.repos.team.mol_fe.list();
+    githubMock.repos.team.mol_fe.meta();
+
+    const config = require('../fixtures/config-teams.json');
+
+    return execute.checkRules(config, {teamAccess: 'read'})
+    .then((results) => {
+      assert.deepStrictEqual(results, require('../fixtures/config-teams_read-access_expected_results.json'));
       assert(nock.isDone());
     });
   });

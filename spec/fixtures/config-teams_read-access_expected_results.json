@@ -21,6 +21,17 @@
       "mode": 1
     }
   },
+  "MailOnline/stylelint-config-mailonline": {
+    "repo-description": {
+      "valid": true
+    },
+    "repo-homepage": {
+      "valid": false,
+      "message": "not satisfied",
+      "errors": "data.homepage should NOT be shorter than 10 characters",
+      "mode": 1
+    }
+  },
   "MailOnline/videojs-vast-vpaid": {
     "repo-description": {
       "valid": true

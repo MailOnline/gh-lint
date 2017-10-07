@@ -148,13 +148,57 @@ describe('prepareRepoRules', () => {
 
 
   describe('teams scope', () => {
-    it('should collect rules for repos for team', () => {
+    it('should collect rules for repos for team with agmin access only', () => {
       githubMock.teams();
       githubMock.repos.team.mol_fe.list();
 
       const config = execute.prepareConfig(require('../fixtures/config-teams.json'));
 
       return execute.prepareRepoRules(config)
+      .then(repoSourceRules => {
+        assert.deepStrictEqual(repoSourceRules, {
+          'MailOnline/eslint-config-mailonline': {
+            meta: {
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
+            }
+          },
+          'MailOnline/mol-conventional-changelog': {
+            meta: {
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
+            }
+          },
+          'MailOnline/videojs-vast-vpaid': {
+            meta: {
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
+            }
+          },
+          'MailOnline/VPAIDFLASHClient': {
+            meta: {
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
+            }
+          },
+          'MailOnline/VPAIDHTML5Client': {
+            meta: {
+              'repo-description': { mode: 2, minLength: 1 },
+              'repo-homepage': { mode: 1, minLength: 1 }
+            }
+          }
+        });
+        assert(nock.isDone());
+      });
+    });
+
+    it('should collect rules for repos for team with any access', () => {
+      githubMock.teams();
+      githubMock.repos.team.mol_fe.list();
+
+      const config = execute.prepareConfig(require('../fixtures/config-teams.json'));
+
+      return execute.prepareRepoRules(config, {teamAccess: 'read'})
       .then(repoSourceRules => {
         assert.deepStrictEqual(repoSourceRules, {
           'MailOnline/eslint-config-mailonline': {

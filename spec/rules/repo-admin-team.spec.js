@@ -19,7 +19,7 @@ describe('rule repo-admin-team', () => {
       org: 'MailOnline',
       rules: {
         'repo-admin-team': [2, {
-          maximum: 1
+          maxAdmins: 1
         }]
       }
     };
@@ -41,7 +41,7 @@ describe('rule repo-admin-team', () => {
       rules: {
         'repo-admin-team': [2, {
           required: false,
-          maximum: 1
+          maxAdmins: 1
         }]
       }
     };

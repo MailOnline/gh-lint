@@ -59,7 +59,7 @@ See [gh-lint-demo](https://github.com/MailOnline/gh-lint-demo) for the example c
 - repo-homepage: check that repo has homepage specified in GitHub UI
 - repo-readme: check that repo has README file
 - repo-team: check that repo is assigned to one of specified teams
-- repo-single-admin: check that repo has exactly one admin team
+- repo-admin-team: check repo admin team(s)
 
 
 #### Branch rules

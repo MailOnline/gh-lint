@@ -1,0 +1,257 @@
+{
+  "MailOnline/hornetq-connector": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/rsyslog_legacy": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/metro-trackr-api": {
+    "repo-admin-team": {
+      "valid": false,
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "messages": [
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+      ],
+      "mode": 2
+    }
+  },
+  "MailOnline/jquery.ezmodal.js": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/s-metric": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/metro-polls-api": {
+    "repo-admin-team": {
+      "valid": false,
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "messages": [
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+      ],
+      "mode": 2
+    }
+  },
+  "MailOnline/cuteyp": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/gif-loader": {
+    "repo-admin-team": {
+      "valid": false,
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "messages": [
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+      ],
+      "mode": 2
+    }
+  },
+  "MailOnline/grunt-css-annotator": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/sicp-mailonline": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/metro-ui-trending": {
+    "repo-admin-team": {
+      "valid": false,
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "messages": [
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+      ],
+      "mode": 2
+    }
+  },
+  "MailOnline/clj-stingray": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/gargamel": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/throttle": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/splunkbox": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/vim-cljrefactor": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/winston-amqp": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/state-keeper": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/forwarder": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/VPAIDFLASHClient": {
+    "repo-admin-team": {
+      "valid": false,
+      "message": "Repo has 2 admin teams (1 allowed): Employees, #mol-fe",
+      "messages": [
+        "Repo has 2 admin teams (1 allowed): Employees, #mol-fe"
+      ],
+      "mode": 2
+    }
+  },
+  "MailOnline/videojs-vast-vpaid": {
+    "repo-admin-team": {
+      "valid": false,
+      "message": "Repo has 2 admin teams (1 allowed): Employees, #mol-fe",
+      "messages": [
+        "Repo has 2 admin teams (1 allowed): Employees, #mol-fe"
+      ],
+      "mode": 2
+    }
+  },
+  "MailOnline/VPAIDHTML5Client": {
+    "repo-admin-team": {
+      "valid": false,
+      "message": "Repo has 2 admin teams (1 allowed): Employees, #mol-fe",
+      "messages": [
+        "Repo has 2 admin teams (1 allowed): Employees, #mol-fe"
+      ],
+      "mode": 2
+    }
+  },
+  "MailOnline/json-schema-test": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/metro-vip-go": {
+    "repo-admin-team": {
+      "valid": false,
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "messages": [
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+      ],
+      "mode": 2
+    }
+  },
+  "MailOnline/lein-mailonline-template": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/ImageViewer": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/node-zookeeper-build-fix": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/ansible-role-monit": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/transpile-middleware": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/ansible-role-log-forwarder": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/mol-utils": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/Reactor": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/estail": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/mocklib": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/table1_public_files": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/mol-heroku-sandbox": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/located-monad-logger": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/eslint-config-mailonline": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/formulae": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/stylelint-config-mailonline": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/mol-conventional-changelog": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/eslint-config-mailonline-cc": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  },
+  "MailOnline/gh-lint": {
+    "repo-admin-team": {
+      "valid": true
+    }
+  }
+}

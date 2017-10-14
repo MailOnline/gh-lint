@@ -1,310 +1,310 @@
 {
   "MailOnline/hornetq-connector": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/rsyslog_legacy": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/metro-trackr-api": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams: Employees, Metro",
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams: Employees, Metro"
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
       ],
       "mode": 2
     }
   },
   "MailOnline/jquery.ezmodal.js": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/s-metric": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/metro-polls-api": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams: Employees, Metro",
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams: Employees, Metro"
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
       ],
       "mode": 2
     }
   },
   "MailOnline/cuteyp": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/gif-loader": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams: Employees, Metro",
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams: Employees, Metro"
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
       ],
       "mode": 2
     }
   },
   "MailOnline/grunt-css-annotator": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/sicp-mailonline": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/metro-ui-trending": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams: Employees, Metro",
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams: Employees, Metro"
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
       ],
       "mode": 2
     }
   },
   "MailOnline/clj-stingray": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/gargamel": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/throttle": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/splunkbox": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/vim-cljrefactor": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/winston-amqp": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/state-keeper": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/forwarder": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/VPAIDFLASHClient": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams: Employees, #mol-fe",
+      "message": "Repo has 2 admin teams (1 allowed): Employees, #mol-fe",
       "messages": [
-        "Repo has 2 admin teams: Employees, #mol-fe"
+        "Repo has 2 admin teams (1 allowed): Employees, #mol-fe"
       ],
       "mode": 2
     }
   },
   "MailOnline/videojs-vast-vpaid": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams: Employees, #mol-fe",
+      "message": "Repo has 2 admin teams (1 allowed): Employees, #mol-fe",
       "messages": [
-        "Repo has 2 admin teams: Employees, #mol-fe"
+        "Repo has 2 admin teams (1 allowed): Employees, #mol-fe"
       ],
       "mode": 2
     }
   },
   "MailOnline/VPAIDHTML5Client": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams: Employees, #mol-fe",
+      "message": "Repo has 2 admin teams (1 allowed): Employees, #mol-fe",
       "messages": [
-        "Repo has 2 admin teams: Employees, #mol-fe"
+        "Repo has 2 admin teams (1 allowed): Employees, #mol-fe"
       ],
       "mode": 2
     }
   },
   "MailOnline/json-schema-test": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/metro-vip-go": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams: Employees, Metro",
+      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams: Employees, Metro"
+        "Repo has 2 admin teams (1 allowed): Employees, Metro"
       ],
       "mode": 2
     }
   },
   "MailOnline/lein-mailonline-template": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/ImageViewer": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/node-zookeeper-build-fix": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/ansible-role-monit": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/transpile-middleware": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/ansible-role-log-forwarder": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/mol-utils": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/Reactor": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/estail": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/mocklib": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/table1_public_files": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/mol-heroku-sandbox": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/located-monad-logger": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/eslint-config-mailonline": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/formulae": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }
   },
   "MailOnline/stylelint-config-mailonline": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/mol-conventional-changelog": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/eslint-config-mailonline-cc": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": true
     }
   },
   "MailOnline/gh-lint": {
-    "repo-single-admin": {
+    "repo-admin-team": {
       "valid": false,
-      "message": "Repo has no admin team",
+      "message": "Repo has no required admin team",
       "messages": [
-        "Repo has no admin team"
+        "Repo has no required admin team"
       ],
       "mode": 2
     }

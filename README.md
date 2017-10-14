@@ -87,10 +87,10 @@ By default, these rules analyse the PRs for the last 30 days. It can be changed 
 - `-c` (or `--config`) - configuration file location
 - `-u` (or `--user`) - GitHub username
 - `-p` (or `--pass`) - GitHub password
+- `-t` (or `--team-permission`) - minimal team permission level required for repo to be associated with the team (for team-specific rules). The default is "admin". Other values are "push" (includes admin access) and "pull" (repo will be associated with the team that has any access level).
 - `-a` (or `--after`) / `-b` (or `--before`) - only validate repositories in organizations and in teams that were changed **after**/**before** this date (also can be date-time or the integer number of days). These options have no effect on repositories that are explicitely specified.
 - `--since` / `--until` - validate commits **since**/**until** this date (also can be date-time or the integer number of days)
 - `--tap` - output results in TAP format
-- `--team-access` - team access level required for repo to be associated with the team (for team-specific rules). The default is "admin". Other values are "write" (includes admin access) and "read" (repo will be associated with the team that has any access level).
 
 
 ## Plugins

@@ -40,7 +40,7 @@ describe('rule repo-team', () => {
       rules: {
         'repo-team': [2, {
           teams: ['#ads', '#cc', '#clj', '#ios-ny', '#ml-nlp', '#mol-fe', '#rc', '#rta', '#support', '#systems', 'Metro', 'IOS'],
-          minPermission: 'write'
+          minPermission: 'push'
         }]
       }
     };

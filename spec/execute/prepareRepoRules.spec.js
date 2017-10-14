@@ -198,7 +198,7 @@ describe('prepareRepoRules', () => {
 
       const config = execute.prepareConfig(require('../fixtures/config-teams.json'));
 
-      return execute.prepareRepoRules(config, {teamAccess: 'read'})
+      return execute.prepareRepoRules(config, {teamPermission: 'pull'})
       .then(repoSourceRules => {
         assert.deepStrictEqual(repoSourceRules, {
           'MailOnline/eslint-config-mailonline': {

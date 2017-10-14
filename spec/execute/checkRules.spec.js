@@ -108,7 +108,7 @@ describe('checkRules', () => {
 
     const config = require('../fixtures/config-teams.json');
 
-    return execute.checkRules(config, {teamAccess: 'read'})
+    return execute.checkRules(config, {teamPermission: 'pull'})
     .then((results) => {
       assert.deepStrictEqual(results, require('../fixtures/config-teams_read-access_expected_results.json'));
       assert(nock.isDone());

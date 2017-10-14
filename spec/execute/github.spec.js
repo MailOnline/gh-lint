@@ -72,7 +72,7 @@ describe('github', function() {
         githubMock.teams();
         githubMock.repos.team.mol_fe.list();
 
-        return github.getRepos.team('MailOnline', '#mol-fe', 'read')
+        return github.getRepos.team('MailOnline', '#mol-fe', 'pull')
         .then(result => {
           assert.deepStrictEqual(result, require('../fixtures/molfe_repos.json'));
           assert(nock.isDone());

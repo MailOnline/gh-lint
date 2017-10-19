@@ -1,4 +1,6 @@
 # gh-lint
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/MailOnline/gh-lint.svg)](https://greenkeeper.io/)
 Rule-based command-line tool for monitoring GitHub repositories
 
 [![Build Status](https://travis-ci.org/MailOnline/gh-lint.svg?branch=master)](https://travis-ci.org/MailOnline/gh-lint)

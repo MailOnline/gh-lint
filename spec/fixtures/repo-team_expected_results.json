@@ -4,7 +4,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -14,7 +14,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -29,7 +29,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -39,7 +39,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -53,7 +53,7 @@
     "repo-team": {
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2,
       "valid": false
@@ -69,7 +69,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -79,7 +79,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -94,7 +94,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -104,7 +104,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -114,7 +114,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -124,7 +124,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -134,7 +134,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -144,7 +144,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -154,7 +154,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -164,7 +164,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -189,7 +189,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -204,7 +204,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -213,7 +213,7 @@
     "repo-team": {
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2,
       "valid": false
@@ -224,7 +224,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -234,7 +234,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -244,7 +244,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -254,7 +254,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -264,7 +264,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -274,7 +274,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -294,7 +294,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -309,7 +309,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -324,7 +324,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }
@@ -349,7 +349,7 @@
       "valid": false,
       "message": "Repo not assigned to one of specified teams",
       "messages": [
-        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS"
+        "Specified teams: #ads, #cc, #clj, #ios-ny, #ml-nlp, #mol-fe, #rc, #rta, #support, #systems, Metro, IOS\nRequired team permission: admin"
       ],
       "mode": 2
     }

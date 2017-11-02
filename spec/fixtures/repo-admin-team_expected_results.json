@@ -12,9 +12,9 @@
   "MailOnline/metro-trackr-api": {
     "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "message": "Repo has 2 admin teams (maximum is 1): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+        "Repo has 2 admin teams (maximum is 1): Employees, Metro"
       ],
       "mode": 2
     }
@@ -32,9 +32,9 @@
   "MailOnline/metro-polls-api": {
     "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "message": "Repo has 2 admin teams (maximum is 1): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+        "Repo has 2 admin teams (maximum is 1): Employees, Metro"
       ],
       "mode": 2
     }
@@ -47,9 +47,9 @@
   "MailOnline/gif-loader": {
     "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "message": "Repo has 2 admin teams (maximum is 1): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+        "Repo has 2 admin teams (maximum is 1): Employees, Metro"
       ],
       "mode": 2
     }
@@ -67,9 +67,9 @@
   "MailOnline/metro-ui-trending": {
     "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "message": "Repo has 2 admin teams (maximum is 1): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+        "Repo has 2 admin teams (maximum is 1): Employees, Metro"
       ],
       "mode": 2
     }
@@ -117,9 +117,9 @@
   "MailOnline/VPAIDFLASHClient": {
     "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams (1 allowed): Employees, #mol-fe",
+      "message": "Repo has 2 admin teams (maximum is 1): Employees, #mol-fe",
       "messages": [
-        "Repo has 2 admin teams (1 allowed): Employees, #mol-fe"
+        "Repo has 2 admin teams (maximum is 1): Employees, #mol-fe"
       ],
       "mode": 2
     }
@@ -127,9 +127,9 @@
   "MailOnline/videojs-vast-vpaid": {
     "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams (1 allowed): Employees, #mol-fe",
+      "message": "Repo has 2 admin teams (maximum is 1): Employees, #mol-fe",
       "messages": [
-        "Repo has 2 admin teams (1 allowed): Employees, #mol-fe"
+        "Repo has 2 admin teams (maximum is 1): Employees, #mol-fe"
       ],
       "mode": 2
     }
@@ -137,9 +137,9 @@
   "MailOnline/VPAIDHTML5Client": {
     "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams (1 allowed): Employees, #mol-fe",
+      "message": "Repo has 2 admin teams (maximum is 1): Employees, #mol-fe",
       "messages": [
-        "Repo has 2 admin teams (1 allowed): Employees, #mol-fe"
+        "Repo has 2 admin teams (maximum is 1): Employees, #mol-fe"
       ],
       "mode": 2
     }
@@ -152,9 +152,9 @@
   "MailOnline/metro-vip-go": {
     "repo-admin-team": {
       "valid": false,
-      "message": "Repo has 2 admin teams (1 allowed): Employees, Metro",
+      "message": "Repo has 2 admin teams (maximum is 1): Employees, Metro",
       "messages": [
-        "Repo has 2 admin teams (1 allowed): Employees, Metro"
+        "Repo has 2 admin teams (maximum is 1): Employees, Metro"
       ],
       "mode": 2
     }

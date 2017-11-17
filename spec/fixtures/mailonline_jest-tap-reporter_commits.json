@@ -1,0 +1,320 @@
+[
+  {
+    "sha": "9d45570180714e55d2f70f1bf2b925e64914c93e",
+    "commit": {
+      "author": {
+        "name": "Vadim Dalecky",
+        "email": "streamich@users.noreply.github.com",
+        "date": "2017-11-10T16:28:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-11-10T16:28:20Z"
+      },
+      "message": "Merge pull request #10 from MailOnline/docs/license\n\ndocs: license",
+      "tree": {
+        "sha": "3435af56d8b1e49f4927459a31ebe6b4502d8c15",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/trees/3435af56d8b1e49f4927459a31ebe6b4502d8c15"
+      },
+      "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/commits/9d45570180714e55d2f70f1bf2b925e64914c93e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaBdOkCRBK7hj4Ov3rIwAAdHIIAH+lc02dJYjD6tJP5Zilt5Wd\nPOnJ42l0k3dRrCheDP+3dh6FRqTU5PXAcBrIPwxb01wqlMF4k7BDvjMRDAkf2Bjp\n62Uhb8nBe5w94i1CUx3RZ/qQNWaFk57wC+ClGI1gIgciP5sBTCUW84lP62z+mLbO\ntbynOyl+T8iRlTgcK2yGAI3KH2+ggFzAK2ggFdUs7TJD7v1FWaVvDevNZgP4oaXm\nwiJtCMXkMOVPriWmoT1M9225H5UOPCpHHPYIu7SnlYGeWEG3zGXccYwwFhd6NNib\ntA8B35yCcCZeOTgI5lI0v71zjnoTv28V2jHwd2XEoYQ+WgKfDKB6LIiQ79O2EaU=\n=OpoW\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3435af56d8b1e49f4927459a31ebe6b4502d8c15\nparent 775ad0a2a8448b80d51e759be4fcee2a2f31ec81\nparent 38c752b026b3ea24f7dd838687da07f0f2704f6c\nauthor Vadim Dalecky <streamich@users.noreply.github.com> 1510331300 +0000\ncommitter GitHub <noreply@github.com> 1510331300 +0000\n\nMerge pull request #10 from MailOnline/docs/license\n\ndocs: license"
+      }
+    },
+    "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/9d45570180714e55d2f70f1bf2b925e64914c93e",
+    "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/9d45570180714e55d2f70f1bf2b925e64914c93e",
+    "comments_url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/9d45570180714e55d2f70f1bf2b925e64914c93e/comments",
+    "author": {
+      "login": "streamich",
+      "id": 9773803,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9773803?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/streamich",
+      "html_url": "https://github.com/streamich",
+      "followers_url": "https://api.github.com/users/streamich/followers",
+      "following_url": "https://api.github.com/users/streamich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/streamich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/streamich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/streamich/subscriptions",
+      "organizations_url": "https://api.github.com/users/streamich/orgs",
+      "repos_url": "https://api.github.com/users/streamich/repos",
+      "events_url": "https://api.github.com/users/streamich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/streamich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "775ad0a2a8448b80d51e759be4fcee2a2f31ec81",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/775ad0a2a8448b80d51e759be4fcee2a2f31ec81",
+        "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/775ad0a2a8448b80d51e759be4fcee2a2f31ec81"
+      },
+      {
+        "sha": "38c752b026b3ea24f7dd838687da07f0f2704f6c",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/38c752b026b3ea24f7dd838687da07f0f2704f6c",
+        "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/38c752b026b3ea24f7dd838687da07f0f2704f6c"
+      }
+    ]
+  },
+  {
+    "sha": "38c752b026b3ea24f7dd838687da07f0f2704f6c",
+    "commit": {
+      "author": {
+        "name": "Vadim Dalecky",
+        "email": "streamich@gmail.com",
+        "date": "2017-11-09T15:12:58Z"
+      },
+      "committer": {
+        "name": "Vadim Dalecky",
+        "email": "streamich@gmail.com",
+        "date": "2017-11-09T15:12:58Z"
+      },
+      "message": "docs: license",
+      "tree": {
+        "sha": "3435af56d8b1e49f4927459a31ebe6b4502d8c15",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/trees/3435af56d8b1e49f4927459a31ebe6b4502d8c15"
+      },
+      "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/commits/38c752b026b3ea24f7dd838687da07f0f2704f6c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/38c752b026b3ea24f7dd838687da07f0f2704f6c",
+    "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/38c752b026b3ea24f7dd838687da07f0f2704f6c",
+    "comments_url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/38c752b026b3ea24f7dd838687da07f0f2704f6c/comments",
+    "author": {
+      "login": "streamich",
+      "id": 9773803,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9773803?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/streamich",
+      "html_url": "https://github.com/streamich",
+      "followers_url": "https://api.github.com/users/streamich/followers",
+      "following_url": "https://api.github.com/users/streamich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/streamich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/streamich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/streamich/subscriptions",
+      "organizations_url": "https://api.github.com/users/streamich/orgs",
+      "repos_url": "https://api.github.com/users/streamich/repos",
+      "events_url": "https://api.github.com/users/streamich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/streamich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "streamich",
+      "id": 9773803,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9773803?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/streamich",
+      "html_url": "https://github.com/streamich",
+      "followers_url": "https://api.github.com/users/streamich/followers",
+      "following_url": "https://api.github.com/users/streamich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/streamich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/streamich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/streamich/subscriptions",
+      "organizations_url": "https://api.github.com/users/streamich/orgs",
+      "repos_url": "https://api.github.com/users/streamich/repos",
+      "events_url": "https://api.github.com/users/streamich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/streamich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f068cdbe0469e2de42c410fb67585fbe301567e1",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/f068cdbe0469e2de42c410fb67585fbe301567e1",
+        "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/f068cdbe0469e2de42c410fb67585fbe301567e1"
+      }
+    ]
+  },
+  {
+    "sha": "775ad0a2a8448b80d51e759be4fcee2a2f31ec81",
+    "commit": {
+      "author": {
+        "name": "Vadim Dalecky",
+        "email": "streamich@users.noreply.github.com",
+        "date": "2017-11-09T15:06:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-11-09T15:06:05Z"
+      },
+      "message": "Merge pull request #9 from MailOnline/docs/readme\n\nDocs/readme",
+      "tree": {
+        "sha": "064e2e12e5dece9089f6a9a71245fe7a5772fccc",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/trees/064e2e12e5dece9089f6a9a71245fe7a5772fccc"
+      },
+      "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/commits/775ad0a2a8448b80d51e759be4fcee2a2f31ec81",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaBG7dCRBK7hj4Ov3rIwAAdHIIAJUPoKktUoqKeLEo49Va8zVa\npgtJFDV7/cggiJQGe6WutpuO3UBYxOyBUNryy4oRkWcdukGgw5IPr5iWki6YKGI3\nre+Vbw2wJTLdilZXNN9dFPQqvTsG/9aKxGfsxDKjoyZvzGXtNmfqdOXXfCOdZ4Mc\ny30A3mIB/tzT5ltMlVdJKG2W4SWXnDVoeGlXPFs+SE/ItonmMCZYetOwmK3Y3V2g\nm5MlHDi6Z/TEe0oA5qayadZxsdjP141QG1/rcMVW3J2xEdlSntV+jbAykvd5jS1Y\nnY6k2wXVfoIhqn8FKV2q9FGgy5N9W39S7OkOpbL7o/Z6les56fl+PGPI1uNQBZ0=\n=EK8w\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 064e2e12e5dece9089f6a9a71245fe7a5772fccc\nparent 2dc4ffb9012647c2b92b2b6d745b1ff53d1065d3\nparent f068cdbe0469e2de42c410fb67585fbe301567e1\nauthor Vadim Dalecky <streamich@users.noreply.github.com> 1510239965 +0000\ncommitter GitHub <noreply@github.com> 1510239965 +0000\n\nMerge pull request #9 from MailOnline/docs/readme\n\nDocs/readme"
+      }
+    },
+    "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/775ad0a2a8448b80d51e759be4fcee2a2f31ec81",
+    "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/775ad0a2a8448b80d51e759be4fcee2a2f31ec81",
+    "comments_url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/775ad0a2a8448b80d51e759be4fcee2a2f31ec81/comments",
+    "author": {
+      "login": "streamich",
+      "id": 9773803,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9773803?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/streamich",
+      "html_url": "https://github.com/streamich",
+      "followers_url": "https://api.github.com/users/streamich/followers",
+      "following_url": "https://api.github.com/users/streamich/following{/other_user}",
+      "gists_url": "https://api.github.com/users/streamich/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/streamich/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/streamich/subscriptions",
+      "organizations_url": "https://api.github.com/users/streamich/orgs",
+      "repos_url": "https://api.github.com/users/streamich/repos",
+      "events_url": "https://api.github.com/users/streamich/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/streamich/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2dc4ffb9012647c2b92b2b6d745b1ff53d1065d3",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/2dc4ffb9012647c2b92b2b6d745b1ff53d1065d3",
+        "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/2dc4ffb9012647c2b92b2b6d745b1ff53d1065d3"
+      },
+      {
+        "sha": "f068cdbe0469e2de42c410fb67585fbe301567e1",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/f068cdbe0469e2de42c410fb67585fbe301567e1",
+        "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/f068cdbe0469e2de42c410fb67585fbe301567e1"
+      }
+    ]
+  },
+  {
+    "sha": "f068cdbe0469e2de42c410fb67585fbe301567e1",
+    "commit": {
+      "author": {
+        "name": "Vadim Dalecky",
+        "email": "vadim.daleckis@mailonline.co.uk",
+        "date": "2017-11-09T14:34:19Z"
+      },
+      "committer": {
+        "name": "Vadim Dalecky",
+        "email": "vadim.daleckis@mailonline.co.uk",
+        "date": "2017-11-09T14:34:19Z"
+      },
+      "message": "docs: add license credentials",
+      "tree": {
+        "sha": "064e2e12e5dece9089f6a9a71245fe7a5772fccc",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/trees/064e2e12e5dece9089f6a9a71245fe7a5772fccc"
+      },
+      "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/commits/f068cdbe0469e2de42c410fb67585fbe301567e1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/f068cdbe0469e2de42c410fb67585fbe301567e1",
+    "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/f068cdbe0469e2de42c410fb67585fbe301567e1",
+    "comments_url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/f068cdbe0469e2de42c410fb67585fbe301567e1/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "fc8be9a818eb5f6b630a216753b43829ec6dbd83",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/fc8be9a818eb5f6b630a216753b43829ec6dbd83",
+        "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/fc8be9a818eb5f6b630a216753b43829ec6dbd83"
+      }
+    ]
+  },
+  {
+    "sha": "fc8be9a818eb5f6b630a216753b43829ec6dbd83",
+    "commit": {
+      "author": {
+        "name": "Vadim Dalecky",
+        "email": "vadim.daleckis@mailonline.co.uk",
+        "date": "2017-11-09T14:32:22Z"
+      },
+      "committer": {
+        "name": "Vadim Dalecky",
+        "email": "vadim.daleckis@mailonline.co.uk",
+        "date": "2017-11-09T14:32:22Z"
+      },
+      "message": "docs: add VS Code sample screenshot",
+      "tree": {
+        "sha": "53116b500eab7be529f64997a99b442c7119377f",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/trees/53116b500eab7be529f64997a99b442c7119377f"
+      },
+      "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/git/commits/fc8be9a818eb5f6b630a216753b43829ec6dbd83",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/fc8be9a818eb5f6b630a216753b43829ec6dbd83",
+    "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/fc8be9a818eb5f6b630a216753b43829ec6dbd83",
+    "comments_url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/fc8be9a818eb5f6b630a216753b43829ec6dbd83/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "4fb2fe7bc791a9fcc68f863fa678d215c897e639",
+        "url": "https://api.github.com/repos/MailOnline/jest-tap-reporter/commits/4fb2fe7bc791a9fcc68f863fa678d215c897e639",
+        "html_url": "https://github.com/MailOnline/jest-tap-reporter/commit/4fb2fe7bc791a9fcc68f863fa678d215c897e639"
+      }
+    ]
+  }
+]

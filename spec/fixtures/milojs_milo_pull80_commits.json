@@ -1,0 +1,230 @@
+[
+  {
+    "sha": "bfde4d3edfbf896f88a0b3303084a3911eeb15a9",
+    "commit": {
+      "author": {
+        "name": "Andrea Giammarchi",
+        "email": "andrea.giammarchi@mailonline.co.uk",
+        "date": "2017-02-27T10:46:53Z"
+      },
+      "committer": {
+        "name": "Andrea Giammarchi",
+        "email": "andrea.giammarchi@mailonline.co.uk",
+        "date": "2017-02-27T10:48:43Z"
+      },
+      "message": "chore: component.isReaady = false on destroy",
+      "tree": {
+        "sha": "a9d3763f675eeaf5beb83503b4eda1a204d0633c",
+        "url": "https://api.github.com/repos/milojs/milo/git/trees/a9d3763f675eeaf5beb83503b4eda1a204d0633c"
+      },
+      "url": "https://api.github.com/repos/milojs/milo/git/commits/bfde4d3edfbf896f88a0b3303084a3911eeb15a9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/milojs/milo/commits/bfde4d3edfbf896f88a0b3303084a3911eeb15a9",
+    "html_url": "https://github.com/milojs/milo/commit/bfde4d3edfbf896f88a0b3303084a3911eeb15a9",
+    "comments_url": "https://api.github.com/repos/milojs/milo/commits/bfde4d3edfbf896f88a0b3303084a3911eeb15a9/comments",
+    "author": {
+      "login": "WebReflection",
+      "id": 85749,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/85749?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WebReflection",
+      "html_url": "https://github.com/WebReflection",
+      "followers_url": "https://api.github.com/users/WebReflection/followers",
+      "following_url": "https://api.github.com/users/WebReflection/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WebReflection/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WebReflection/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WebReflection/subscriptions",
+      "organizations_url": "https://api.github.com/users/WebReflection/orgs",
+      "repos_url": "https://api.github.com/users/WebReflection/repos",
+      "events_url": "https://api.github.com/users/WebReflection/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WebReflection/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "WebReflection",
+      "id": 85749,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/85749?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WebReflection",
+      "html_url": "https://github.com/WebReflection",
+      "followers_url": "https://api.github.com/users/WebReflection/followers",
+      "following_url": "https://api.github.com/users/WebReflection/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WebReflection/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WebReflection/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WebReflection/subscriptions",
+      "organizations_url": "https://api.github.com/users/WebReflection/orgs",
+      "repos_url": "https://api.github.com/users/WebReflection/repos",
+      "events_url": "https://api.github.com/users/WebReflection/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WebReflection/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "286fea05924a2c58bd66ba084b143ad5cd56d2f7",
+        "url": "https://api.github.com/repos/milojs/milo/commits/286fea05924a2c58bd66ba084b143ad5cd56d2f7",
+        "html_url": "https://github.com/milojs/milo/commit/286fea05924a2c58bd66ba084b143ad5cd56d2f7"
+      }
+    ]
+  },
+  {
+    "sha": "5fa1f6543237fb3fa8de7098d1a564176ac67b45",
+    "commit": {
+      "author": {
+        "name": "Andrea Giammarchi",
+        "email": "andrea.giammarchi@gmail.com",
+        "date": "2017-05-02T13:33:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-02T13:33:32Z"
+      },
+      "message": "Update c_class.js\n\nkeeping `isReady` as such:\r\n\r\n  * `false` when not ready\r\n  * `true` only once dispatching `'stateready'`\r\n  * `undefined` when destroyed (the property is not shadowed 'cause I'm not sure if `false` is set as default in the prototype)",
+      "tree": {
+        "sha": "ceb96252d8a02c04c16898a459e4d158d5b460c9",
+        "url": "https://api.github.com/repos/milojs/milo/git/trees/ceb96252d8a02c04c16898a459e4d158d5b460c9"
+      },
+      "url": "https://api.github.com/repos/milojs/milo/git/commits/5fa1f6543237fb3fa8de7098d1a564176ac67b45",
+      "comment_count": 1,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/milojs/milo/commits/5fa1f6543237fb3fa8de7098d1a564176ac67b45",
+    "html_url": "https://github.com/milojs/milo/commit/5fa1f6543237fb3fa8de7098d1a564176ac67b45",
+    "comments_url": "https://api.github.com/repos/milojs/milo/commits/5fa1f6543237fb3fa8de7098d1a564176ac67b45/comments",
+    "author": {
+      "login": "WebReflection",
+      "id": 85749,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/85749?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WebReflection",
+      "html_url": "https://github.com/WebReflection",
+      "followers_url": "https://api.github.com/users/WebReflection/followers",
+      "following_url": "https://api.github.com/users/WebReflection/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WebReflection/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WebReflection/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WebReflection/subscriptions",
+      "organizations_url": "https://api.github.com/users/WebReflection/orgs",
+      "repos_url": "https://api.github.com/users/WebReflection/repos",
+      "events_url": "https://api.github.com/users/WebReflection/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WebReflection/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bfde4d3edfbf896f88a0b3303084a3911eeb15a9",
+        "url": "https://api.github.com/repos/milojs/milo/commits/bfde4d3edfbf896f88a0b3303084a3911eeb15a9",
+        "html_url": "https://github.com/milojs/milo/commit/bfde4d3edfbf896f88a0b3303084a3911eeb15a9"
+      }
+    ]
+  },
+  {
+    "sha": "877b3787d2d370701a051ebc508bb82abe7e0d74",
+    "commit": {
+      "author": {
+        "name": "Andrea Giammarchi",
+        "email": "andrea.giammarchi@gmail.com",
+        "date": "2017-05-02T13:48:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-05-02T13:48:31Z"
+      },
+      "message": "Update c_class.js\n\nBe sure `init()` sets `isReady` as `false`.",
+      "tree": {
+        "sha": "b196581b91f54a9b3b2d2401d64c14dbfc8c690c",
+        "url": "https://api.github.com/repos/milojs/milo/git/trees/b196581b91f54a9b3b2d2401d64c14dbfc8c690c"
+      },
+      "url": "https://api.github.com/repos/milojs/milo/git/commits/877b3787d2d370701a051ebc508bb82abe7e0d74",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/milojs/milo/commits/877b3787d2d370701a051ebc508bb82abe7e0d74",
+    "html_url": "https://github.com/milojs/milo/commit/877b3787d2d370701a051ebc508bb82abe7e0d74",
+    "comments_url": "https://api.github.com/repos/milojs/milo/commits/877b3787d2d370701a051ebc508bb82abe7e0d74/comments",
+    "author": {
+      "login": "WebReflection",
+      "id": 85749,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/85749?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WebReflection",
+      "html_url": "https://github.com/WebReflection",
+      "followers_url": "https://api.github.com/users/WebReflection/followers",
+      "following_url": "https://api.github.com/users/WebReflection/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WebReflection/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WebReflection/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WebReflection/subscriptions",
+      "organizations_url": "https://api.github.com/users/WebReflection/orgs",
+      "repos_url": "https://api.github.com/users/WebReflection/repos",
+      "events_url": "https://api.github.com/users/WebReflection/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WebReflection/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5fa1f6543237fb3fa8de7098d1a564176ac67b45",
+        "url": "https://api.github.com/repos/milojs/milo/commits/5fa1f6543237fb3fa8de7098d1a564176ac67b45",
+        "html_url": "https://github.com/milojs/milo/commit/5fa1f6543237fb3fa8de7098d1a564176ac67b45"
+      }
+    ]
+  }
+]

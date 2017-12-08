@@ -69,6 +69,10 @@ module.exports = {
       reviews(pullNumber) {
         mock(`/repos/milojs/milo/pulls/${pullNumber}/reviews?per_page=30&page=1`,
           `../fixtures/milojs_milo_pull${pullNumber}_reviews.json`);
+      },
+      commits(pullNumber) {
+        mock(`/repos/milojs/milo/pulls/${pullNumber}/commits?per_page=30&page=1`,
+          `../fixtures/milojs_milo_pull${pullNumber}_commits.json`);
       }
     }
   }

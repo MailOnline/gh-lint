@@ -73,6 +73,7 @@ See [gh-lint-demo](https://github.com/MailOnline/gh-lint-demo) for the example c
 By default, these rules analyse the commits for the last 30 days. It can be changed using options `--since` and `--until` (see below).
 
 - commit-name: check that commit names satisfy semantic commit conventions
+- commit-pr: check that commit was added to master via PR
 
 
 #### PR rules

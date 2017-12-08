@@ -74,6 +74,7 @@ By default, these rules analyse the commits for the last 30 days. It can be chan
 
 - commit-name: check that commit names satisfy semantic commit conventions
 - commit-pr: check that commit was added to master via PR
+- commit-user: check that commit is associated with some GitHub user(s)
 
 
 #### PR rules

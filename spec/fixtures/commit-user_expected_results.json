@@ -1,0 +1,18 @@
+{
+  "MailOnline/jest-tap-reporter": {
+    "commit-user": {
+      "valid": false,
+      "message": "2 commits not linked to GitHub user accounts: Vadim Dalecky",
+      "messages": [
+        "Commit by Vadim Dalecky not linked to GitHub user account:\nhttps://github.com/MailOnline/jest-tap-reporter/commit/f068cdbe0469e2de42c410fb67585fbe301567e1\ndocs: add license credentials",
+        "Commit by Vadim Dalecky not linked to GitHub user account:\nhttps://github.com/MailOnline/jest-tap-reporter/commit/fc8be9a818eb5f6b630a216753b43829ec6dbd83\ndocs: add VS Code sample screenshot"
+      ],
+      "mode": 2
+    }
+  },
+  "milojs/milo": {
+    "commit-user": {
+      "valid": true
+    }
+  }
+}

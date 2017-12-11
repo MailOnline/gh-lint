@@ -78,6 +78,7 @@
       "properties": {
         "title": { "type": "string" },
         "remind": { "type": "boolean" },
+        "reopen": { "type": "boolean" },
         "comments": {
           "type": "object",
           "minProperties": 1,

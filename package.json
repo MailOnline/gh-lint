@@ -7,7 +7,7 @@
     "ghlint": "lib/cli/index.js"
   },
   "dependencies": {
-    "ajv": "^5.0.0",
+    "ajv": "^6.0.0",
     "ajv-keywords": "^2.0.0",
     "glob": "^7.1.1",
     "js-yaml": "^3.8.1",

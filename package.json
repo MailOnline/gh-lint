@@ -22,7 +22,7 @@
     "ghlint-plugin-example": "^0.1.0",
     "json-schema-test": "^2.0.0",
     "mocha": "^4.0.1",
-    "nock": "^9.0.2",
+    "nock": "^9.1.6",
     "nyc": "^11.0.2",
     "pre-commit": "^1.2.2"
   },

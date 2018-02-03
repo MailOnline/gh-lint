@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "eslint": "^4.9.0",
+    "eslint": "^4.17.0",
     "eslint-plugin-promise": "^3.4.0",
     "ghlint-plugin-example": "^0.1.0",
     "json-schema-test": "^2.0.0",

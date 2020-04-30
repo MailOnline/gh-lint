@@ -13,7 +13,8 @@
     "js-yaml": "^3.8.1",
     "minimist": "^1.2.0",
     "request": "^2.79.0",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.1.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
@@ -29,7 +30,9 @@
   "scripts": {
     "eslint": "eslint lib && eslint spec",
     "test-spec": "mocha 'spec/{**/,}*.spec.js' -R spec",
-    "test": "npm run eslint && nyc npm run test-spec"
+    "test": "npm run eslint && nyc npm run test-spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -56,5 +59,6 @@
       "lcov",
       "text-summary"
     ]
-  }
+  },
+  "snyk": true
 }
